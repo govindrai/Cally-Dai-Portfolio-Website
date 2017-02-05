@@ -1,0 +1,23 @@
+#about-hero {
+    display: block;
+    background-image: url(../img/about/about-me-img.png);
+    background-color: #82837D;
+    height: 360px;
+}
+
+#about-hero .container {
+    height: 360px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.photo-credit {
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    font-size: 8px;
+    font-family: 'Open Sans', sans-serif;
+    color: #e4e8f7;
+    text-align: right;
+    text-transform: none;
+}

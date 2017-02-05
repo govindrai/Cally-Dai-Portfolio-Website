@@ -1,0 +1,22 @@
+Options +FollowSymLinks
+
+## Turn mod_rewrite on
+RewriteEngine on
+
+## Force www
+RewriteCond %{HTTP_HOST} ^callydai.com [NC]
+RewriteRule ^(.*)$ http://www.callydai.com/$1 [R=301,L]
+
+## Remove index.php from URL
+RewriteRule ^index\.php$ / [R=301,L]
+RewriteRule ^(.*)/index\.php$ /$1/ [R=301,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+## browser requests PHP
+##RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^\ ]+)\.php [NC]
+##RewriteRule ^/?(.*)\.php$ /$1 [NC,L,R=301]
+
+
