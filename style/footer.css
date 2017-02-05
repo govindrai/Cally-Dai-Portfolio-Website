@@ -1,0 +1,94 @@
+footer {
+    background-color: #e4e8f8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer .container {
+    padding: 75px 0;
+    position: relative;
+}
+
+#footer-avatar {
+    margin-top: -115px;
+    margin-bottom: 45px;
+}
+
+footer a {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+footer a:last-of-type {
+    margin-right: 0px;
+}
+
+#social-links {
+    margin-top: 30px;
+}
+
+#social-links a {
+    margin-right: 30px;
+}
+
+#social-links a:last-of-type {
+    margin-right: 0;
+}
+
+.copyright-area {
+    position: absolute;
+}
+
+#copyright {
+    bottom: 30px;
+    right: 85px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#credits {
+    position: absolute;
+    bottom: 15px;
+    right: 85px;
+    font-size: 8px;
+    font-style: italic;
+    line-height: 1.88;
+}
+
+.social-logo {
+    width: 24px;
+    height: 24px;
+    transition: background-image .2s;
+}
+
+#social-links a:nth-child(1) div {
+    background-image: url('../img/footer/logo-linkedin.svg');
+}
+
+#social-links a:nth-child(1) div:hover {
+    background-image: url('../img/footer/logo-linkedin-copy.svg');
+}
+
+#social-links a:nth-child(2) div {
+    background-image: url('../img/footer/logo-dribbble.svg');
+}
+
+#social-links a:nth-child(2) div:hover {
+    background-image: url('../img/footer/logo-dribbble-copy.svg');
+}
+
+#social-links a:nth-child(3) div {
+    background-image: url('../img/footer/logo-email.svg');
+}
+
+#social-links a:nth-child(3) div:hover {
+    background-image: url('../img/footer/logo-email-copy.svg');
+}
+
+#social-links a:nth-child(4) div {
+    background-image: url('../img/footer/logo-insta.svg');
+}
+
+#social-links a:nth-child(4) div:hover {
+    background-image: url('../img/footer/logo-insta-copy.svg');
+}

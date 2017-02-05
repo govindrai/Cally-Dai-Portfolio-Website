@@ -1,7 +1,12 @@
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style/normalize.css" type="text/css" />
 <link rel="stylesheet" href="style/style.css" type="text/css" />
-<link href="https://fonts.googleapis.com/css?family=Droid+Serif%7COpen+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora%7COpen+Sans:300i,400,400i">
+<link rel="shortcut-icon" type="image/svg" href="img/general/favicon.svg"/>
+
+<?php require_once('favicon.php'); ?>
+
 <!--[if lt IE 9]>
   <script>
     document.createElement("header" );

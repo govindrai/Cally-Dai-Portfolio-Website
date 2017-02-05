@@ -1,0 +1,40 @@
+#contact input,
+textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #8891b3;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid 1px #8891b3;
+    padding: 10px 15px;
+}
+
+#contact {
+    margin-top: 78px;
+    display: flex;
+    flex-direction: column;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact input {
+    margin-bottom: 33px;
+}
+
+#contact textarea {
+    margin-bottom: 30px;
+    height: 90px;
+}
+
+#contact button {
+    border: none;
+    margin-bottom: 0;
+}
+
+.container.contact {
+    margin-top: 60px;
+}
