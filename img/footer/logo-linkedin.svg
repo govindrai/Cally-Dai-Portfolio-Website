@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+<<<<<<< HEAD
     <title>E4DF3308-C2A0-44E7-84FD-71531AEE0707</title>
     <desc>Created with sketchtool.</desc>
     <defs></defs>
@@ -10,6 +11,19 @@
                 <g id="logo_linkedin">
                     <path d="M12,0 C5.373,0 0,5.373 0,12 C0,18.627 5.373,24 12,24 C18.627,24 24,18.627 24,12 C24,5.373 18.627,0 12,0 Z M10,16 L8,16 L8,10 L10,10 L10,16 Z M9,9.109 C8.393,9.109 7.9,8.613 7.9,8 C7.9,7.388 8.392,6.891 9,6.891 C9.608,6.891 10.1,7.388 10.1,8 C10.1,8.613 9.607,9.109 9,9.109 Z M17,16 L15.002,16 L15.002,13.139 C15.002,11.258 13,11.417 13,13.139 L13,16 L11,16 L11,10 L13,10 L13,11.093 C13.872,9.477 17,9.357 17,12.641 L17,16 Z" id="Shape" fill="#8891B3"></path>
                     <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+=======
+    <title>B48EC3BD-224F-4298-B01A-C4C810B210CD</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer" transform="translate(-547.000000, -225.000000)">
+            <g id="Group-3">
+                <g transform="translate(547.000000, 225.000000)">
+                    <g id="logo_linkedin">
+                        <path d="M12,0 C5.373,0 0,5.373 0,12 C0,18.627 5.373,24 12,24 C18.627,24 24,18.627 24,12 C24,5.373 18.627,0 12,0 Z M10,16 L8,16 L8,10 L10,10 L10,16 Z M9,9.109 C8.393,9.109 7.9,8.613 7.9,8 C7.9,7.388 8.392,6.891 9,6.891 C9.608,6.891 10.1,7.388 10.1,8 C10.1,8.613 9.607,9.109 9,9.109 Z M17,16 L15.002,16 L15.002,13.139 C15.002,11.258 13,11.417 13,13.139 L13,16 L11,16 L11,10 L13,10 L13,11.093 C13.872,9.477 17,9.357 17,12.641 L17,16 Z" id="Shape" fill="#8891B3"></path>
+                        <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                    </g>
+>>>>>>> 115ded1fa84d229d546b47f617c1b7e88025ea0f
                 </g>
             </g>
         </g>
