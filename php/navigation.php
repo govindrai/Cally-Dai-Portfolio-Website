@@ -1,7 +1,7 @@
 <nav id="top-nav">
     <div class="container">
         <div class="col-2">
-            <a id="logo" href="/">Cally Dai</a>
+            <a id="logo" href="">Cally Dai</a>
         </div>
         <div class="col-10 right-align">
         <!--<div class="col-10 right-align">-->

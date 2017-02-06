@@ -3,14 +3,16 @@
 <!-- Last Published: Fri Jul 08 2016 21:07:12 GMT+0000 (UTC) -->
 <html data-wf-site="571abfc80a8819820933b957" data-wf-page="577db5003a9f1a3f1533adae">
 <head>
+  <base href="https://mysql-raigovind93.c9users.io/Cally%20Dai/">
   <meta charset="utf-8">
   <title>Glifft</title>
   <meta property="og:title" content="Glifft">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="generator" content="Webflow">
-  <link rel="stylesheet" type="text/css" href="../css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="../css/webflow.css">
-  <link rel="stylesheet" type="text/css" href="../css/callydai.webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/callydai.webflow.css">
+  <link rel="stylesheet" type="text/css" href="style/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script>
     WebFont.load({
@@ -19,28 +21,17 @@
       }
     });
   </script>
-  <script type="text/javascript" src="../js/modernizr.js"></script>
-  <link rel="shortcut icon" type="image/x-icon" href="../images/logosmall.png">
-  <link rel="apple-touch-icon" href="../images/logolarge.png">
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="images/logosmall.png">
+  <link rel="apple-touch-icon" href="images/logolarge.png">
 </head>
 <body>
-  <div class="navigation-bar w-nav" data-animation="default" data-collapse="none" data-contain="1" data-duration="400">
-    <div class="w-container">
-      <nav class="navigation-menu w-nav-menu" role="navigation"><a class="navigation-link w-nav-link" href="http://callydai.com">Portfolio</a><a class="navigation-link w-nav-link" href="resume.pdf" target="_blank">Resume</a><a class="navigation-link w-nav-link" href="../about.html">About</a>
-      </nav>
-      <div class="hamburger-button w-nav-button">
-        <div class="w-icon-nav-menu"></div>
-      </div>
-      <a class="logo-link-block w-inline-block" href="http://callydai.com"><img class="logo" src="../images/logosmall.png">
-        <div class="logo-text">Cally Dai</div>
-      </a>
-    </div>
-  </div>
+  <?php require_once('../php/navigation.php'); ?>
   <div class="w-section">
-    <a class="to-bottom-button w-inline-block" data-ix="invisible" href="#more-projects"><img class="to-bottom-button-image" src="../images/skip project.png">
+    <a class="to-bottom-button w-inline-block" data-ix="invisible" href="#more-projects"><img class="to-bottom-button-image" src="images/skip project.png">
     </a>
     <div class="w-container">
-      <div class="project-header">Glifft: MVP for Machine-Learning Gifting Mobile Application</div><img class="project-image" height="400" src="../images/glifft main pic.png">
+      <div class="project-header">Glifft: MVP for Machine-Learning Gifting Mobile Application</div><img class="project-image" height="400" src="images/glifft main pic.png">
       <div class="project-body" data-ix="button-appears">
         <div class="w-richtext">
           <h2>Project&nbsp;Summary</h2>
@@ -80,7 +71,7 @@
           <h4>Results&nbsp;</h4>
           <p>See below for the flow and screens of the product. Labeled are the different aspects and features that made the final MVP. Click through to see larger image.</p>
         </div>
-        <a class="w-inline-block w-lightbox" href="#"><img src="../images/final hifi flow.png">
+        <a class="w-inline-block w-lightbox" href="#"><img src="images/final hifi flow.png">
           <script class="w-json" type="application/json">
             { "items": [{
               "_id": "577eb91a97ba26ad3cbfbf7b",
@@ -91,7 +82,7 @@
               "height": 1000,
               "fileSize": 231183,
               "type": "image",
-              "url": "../images/final hifi flow.png"
+              "url": "images/final hifi flow.png"
             }] }
           </script>
         </a>
@@ -100,12 +91,12 @@
           <h3 id="industry-research">Industry Research</h3>
           <p>We started off our process by analyzing popular companies in the on-demand gifting space to help us learn about best practices and learned behaviors. It also helped us think about Glifft’s unique value proposition and how we can properly give life to the idea in a frictionless way.</p>
           <p>We conducted an idea dump of the client’s idea and we listed our thoughts of features, desired behaviors, as well as concerns regarding the app. We narrowed in the concepts with highest potential and expanded on them.</p>
-        </div><img class="project-body-image" src="../images/idea dump.JPG" width="80%">
+        </div><img class="project-body-image" src="images/idea dump.JPG" width="80%">
         <div class="w-richtext">
           <h3 id="persona-development">Persona Development</h3>
           <p>To help further guide our design process, we defined a provisional persona. Click through for larger image.</p>
         </div>
-        <a class="w-inline-block w-lightbox" href="#"><img class="project-body-image" src="../images/glifft persona.png" width="80%">
+        <a class="w-inline-block w-lightbox" href="#"><img class="project-body-image" src="images/glifft persona.png" width="80%">
           <script class="w-json" type="application/json">
             { "items": [{
               "_id": "577eba5a86a452923c8d3f7b",
@@ -116,7 +107,7 @@
               "height": 1050,
               "fileSize": 916180,
               "type": "image",
-              "url": "../images/glifft persona.png"
+              "url": "images/glifft persona.png"
             }] }
           </script>
         </a>
@@ -125,19 +116,19 @@
           <h3 id="ideation">Ideation</h3>
           <p>With our ideas and persona in mind, we started the ideation process. After deliberating the uncertainty of direction, we listed out assumptions we had about users that would make this app successful. We then tested the riskiest one to make sure we were heading down the right direction.</p>
           <p>At this point, the app is only used when users have someone in mind to gift for. This assumes people have someone in mind often enough for everyday use of the app. We found users that matched our persona and tested how often they gave gifts. If the answer was more than twice a month, we considered it, ‘often.’</p>
-        </div><img class="project-body-image" src="../images/Riskiest Assumptions.jpg" width="80%"><img class="project-body-image" src="../images/hypothesis testing.jpg" width="80%">
+        </div><img class="project-body-image" src="images/Riskiest Assumptions.jpg" width="80%"><img class="project-body-image" src="images/hypothesis testing.jpg" width="80%">
         <div class="w-richtext">
           <p>After asking 10 users, our hypothesis was rejected and we pivoted the structure of the app in order to heighten success. The best way to do this was to move the point of engagement up: instead of having someone in mind in order to use the app, users may also go into the app to browse items, which might inspire them to gift something they see. Displayed in the user story below.</p>
-        </div><img class="project-body-image" src="../images/design story pic.jpg" width="80%">
+        </div><img class="project-body-image" src="images/design story pic.jpg" width="80%">
         <div class="w-richtext">
           <p>With our new flow in place, we began sketching our ideas with a couple rounds of Crazy 8’s. My sketch shown below.
             <br>
           </p>
-        </div><img class="project-body-image" src="../images/crazy 8s pic.jpg" width="80%"><img class="project-body-image" src="../images/crazy 8s sketches.JPG" width="80%">
+        </div><img class="project-body-image" src="images/crazy 8s pic.jpg" width="80%"><img class="project-body-image" src="images/crazy 8s sketches.JPG" width="80%">
         <div class="w-richtext">
           <p>In groups of 4, we carried out 1 distinct flow, working out all the kinks and potential problem areas. Then, we came back all together to consolidate our designs. My group's ideas and our final low-fidelity shown below. Click through for larger images.</p>
         </div>
-        <a class="w-inline-block w-lightbox" href="#"><img class="project-body-image" src="../images/Glifft Flow.png" width="80%">
+        <a class="w-inline-block w-lightbox" href="#"><img class="project-body-image" src="images/Glifft Flow.png" width="80%">
           <script class="w-json" type="application/json">
             { "items": [{
               "_id": "577ebcc486a452923c8d4401",
@@ -148,11 +139,11 @@
               "height": 910,
               "fileSize": 275238,
               "type": "image",
-              "url": "../images/Glifft Flow.png"
+              "url": "images/Glifft Flow.png"
             }] }
           </script>
         </a>
-        <a class="w-inline-block w-lightbox" href="#"><img class="project-body-image" src="../images/lofi mockups annotated.png" width="80%">
+        <a class="w-inline-block w-lightbox" href="#"><img class="project-body-image" src="images/lofi mockups annotated.png" width="80%">
           <script class="w-json" type="application/json">
             { "items": [{
               "_id": "577ebcf397ba26ad3cbfc877",
@@ -163,7 +154,7 @@
               "height": 1024,
               "fileSize": 256611,
               "type": "image",
-              "url": "../images/lofi mockups annotated.png"
+              "url": "images/lofi mockups annotated.png"
             }] }
           </script>
         </a>
@@ -172,18 +163,18 @@
           <h3 id="prototyping">Prototyping</h3>
           <p>First, we piloted a branding workshop to stay true to Glifft’s identity. To do this more formally, we should have invited the founders in for their input. But since this was only for our own use, we operated just within our team.</p>
           <p>We started our branding workshop by pulling words from Glifft’s current branding and inspirations. We also revisited companies from our research and listed words that resonated with us.</p>
-        </div><img class="project-body-image" src="../images/word cloud.jpg" width="80%">
+        </div><img class="project-body-image" src="images/word cloud.jpg" width="80%">
         <div class="w-richtext">
           <p>We bundled similar words and kept doing so until we came up with 4 key brand attributes.</p>
-        </div><img class="project-body-image" src="../images/word cloud clustered.jpg" width="80%"><img class="project-body-image" src="../images/brand attributes.png" width="80%">
+        </div><img class="project-body-image" src="images/word cloud clustered.jpg" width="80%"><img class="project-body-image" src="images/brand attributes.png" width="80%">
         <div class="w-richtext">
           <p>With these in mind, we had guidelines for choosing typefaces and color palettes. Ultimately we chose Avenir and various shades of a single accent colors for simplicity.</p>
-        </div><img class="project-body-image" src="../images/type and color.png" width="80%">
+        </div><img class="project-body-image" src="images/type and color.png" width="80%">
         <div class="w-richtext">
           <p>At this point, our low-fidelity mockups required a hefty app that was out of scope even for our very large team. In order for us to work at a more agile pace, we decided to focus our attention on the main functions of the app. Our biggest concern was to solve today’s problems with the simplest solution possible.</p>
           <p>We began to simplify and streamline our processes, which allowed us to move quickly through the development of our prototype by dividing and conquering designing the high-fidelity screens. By having frequent meetings, we were able to touch base often and stay cohesive in our work. See below for some examples of the changes we made.</p>
         </div>
-        <a class="w-inline-block w-lightbox" href="#"><img class="project-body-image" src="../images/lofi to proto.png" width="80%">
+        <a class="w-inline-block w-lightbox" href="#"><img class="project-body-image" src="images/lofi to proto.png" width="80%">
           <script class="w-json" type="application/json">
             { "items": [{
               "_id": "577ebe5f86a452923c8d48eb",
@@ -194,19 +185,19 @@
               "height": 900,
               "fileSize": 260859,
               "type": "image",
-              "url": "../images/lofi to proto.png"
+              "url": "images/lofi to proto.png"
             }] }
           </script>
         </a>
         <div class="w-richtext">
           <h3 id="usability-testing">Usability Testing</h3>
           <p>With our prototype set, we started testing our prototype with people who matched our persona, Julia. We asked 7 users comprehension questions to test the intuitiveness of the interface, and led them through usability tasks to test the flow and interactions of the app.</p>
-        </div><img class="project-body-image" src="../images/Glifft Testing.png" width="60%">
+        </div><img class="project-body-image" src="images/Glifft Testing.png" width="60%">
         <div class="w-richtext">
           <h3 id="iterate">Iterate</h3>
           <p>Overall the function and aesthetic of the prototype was well received. However there were some key features we needed to change, including the structure of the three main tabs, some iconography, and a couple of cosmetic changes. See below for examples.</p>
         </div>
-        <a class="w-inline-block w-lightbox" href="#"><img class="project-body-image" src="../images/changes made.png" width="80%">
+        <a class="w-inline-block w-lightbox" href="#"><img class="project-body-image" src="images/changes made.png" width="80%">
           <script class="w-json" type="application/json">
             { "items": [{
               "_id": "577ebf1386a452923c8d4d00",
@@ -217,7 +208,7 @@
               "height": 900,
               "fileSize": 216641,
               "type": "image",
-              "url": "../images/changes made.png"
+              "url": "images/changes made.png"
             }] }
           </script>
         </a>
@@ -229,7 +220,7 @@
             <br>2. Perform card sorting&nbsp;to test information hierarchy and&nbsp;reassess tab bar navigation if necessary
             <br>3.&nbsp;Build out other features of the app to be consistent with the simple and clean aesthetic</p>
           <p>The Glifft team was tremendously grateful and impressed with the work that we put in to the project and is currently working with engineers to bring our designs to life!</p>
-        </div><img class="project-body-image" src="../images/group pic.jpg" width="80%">
+        </div><img class="project-body-image" src="images/group pic.jpg" width="80%">
         <div class="w-richtext">
           <h2>Reflection</h2>
           <p>Working in a team of 11 designers was challenging for various reasons. I learned to work with everyone’s differing opinions by listening more than speaking. The finished product that comes from combined ideas is more powerful than any one person’s idea on its own. I also learned to properly allocate time in discussions and move through topics thoroughly but efficiently.</p>
@@ -243,17 +234,17 @@
       <div class="more-projects-header">View More Projects</div>
       <div class="w-row">
         <div class="dynamic-item w-col w-col-4">
-          <a class="main-page-link-block w-inline-block" href="../projects/canopy.html"><img class="main-page-image" src="../images/canopy main square.png" width="300">
+          <a class="main-page-link-block w-inline-block" href="projects/canopy"><img class="main-page-image" src="images/canopy main square.png" width="300">
             <div class="main-page-title">Canopy: Responsive Web for Interactive Learning Platform</div>
           </a>
         </div>
         <div class="dynamic-item w-col w-col-4">
-          <a class="main-page-link-block w-inline-block" href="../projects/somawater.html"><img class="main-page-image" src="../images/Soma Main Square.png" width="300">
+          <a class="main-page-link-block w-inline-block" href="projects/somawater"><img class="main-page-image" src="images/Soma Main Square.png" width="300">
             <div class="main-page-title">Soma Water: Visual Hierarchy to Optimize Conversion</div>
           </a>
         </div>
         <div class="dynamic-item w-col w-col-4">
-          <a class="main-page-link-block w-inline-block" href="../projects/spotify.html"><img class="main-page-image" src="../images/mainpicsquare.png" width="300">
+          <a class="main-page-link-block w-inline-block" href="projects/spotify"><img class="main-page-image" src="images/mainpicsquare.png" width="300">
             <div class="main-page-title">Spotify: Redesign Using Guerilla User Testing</div>
           </a>
         </div>
@@ -264,19 +255,19 @@
     <div class="w-container">
       <div data-ix="fade-in-bottom-scroll-in">
         <div class="footer-text">Contact Me:</div>
-        <a class="social-icon-link w-inline-block" href="https://www.linkedin.com/in/callydai" target="_blank"><img src="../images/social-09.svg" width="20">
+        <a class="social-icon-link w-inline-block" href="https://www.linkedin.com/in/callydai" target="_blank"><img src="images/social-09.svg" width="20">
         </a>
-        <a class="social-icon-link w-inline-block" href="https://twitter.com/cally_dai" target="_blank"><img src="../images/social-18.svg" width="20">
+        <a class="social-icon-link w-inline-block" href="https://twitter.com/cally_dai" target="_blank"><img src="images/social-18.svg" width="20">
         </a>
-        <a class="social-icon-link w-inline-block" href="https://www.instagram.com/callydai/" target="_blank"><img src="../images/social-07.svg" width="20">
+        <a class="social-icon-link w-inline-block" href="https://www.instagram.com/callydai/" target="_blank"><img src="images/social-07.svg" width="20">
         </a>
-        <a class="social-icon-link w-inline-block" href="mailto:hello@callydai.com"><img src="../images/social-30.svg" width="20">
+        <a class="social-icon-link w-inline-block" href="mailto:hello@callydai.com"><img src="images/social-30.svg" width="20">
         </a>
       </div>
     </div>
   </div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <script type="text/javascript" src="../js/webflow.js"></script>
+  <script type="text/javascript" src="js/webflow.js"></script>
   <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 </body>
 </html>
