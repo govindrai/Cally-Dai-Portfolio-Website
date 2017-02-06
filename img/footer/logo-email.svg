@@ -2,6 +2,7 @@
 <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
 <<<<<<< HEAD
+<<<<<<< HEAD
     <title>C4A47E1C-E155-41D1-994C-C9BEAC020CDD</title>
     <desc>Created with sketchtool.</desc>
     <defs></defs>
@@ -24,6 +25,17 @@
                         <rect id="Rectangle-Copy-3" x="0" y="0" width="24" height="24"></rect>
                     </g>
 >>>>>>> 115ded1fa84d229d546b47f617c1b7e88025ea0f
+=======
+    <title>C4A47E1C-E155-41D1-994C-C9BEAC020CDD</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Button-Styles" transform="translate(-106.000000, -529.000000)">
+            <g id="Group-3" transform="translate(38.000000, 529.000000)">
+                <g id="logo_email" transform="translate(68.000000, 0.000000)">
+                    <path d="M12,0.02 C5.373,0.02 0,5.393 0,12.02 C0,18.647 5.373,24.02 12,24.02 C18.627,24.02 24,18.647 24,12.02 C24,5.393 18.627,0.02 12,0.02 L12,0.02 Z M18.99,7 L12,12.666 L5.009,7 L18.99,7 Z M19,17 L5,17 L5,8.495 L12,14.168 L19,8.496 L19,17 Z" id="Shape" fill="#8891B3"></path>
+                    <rect id="Rectangle-Copy-3" x="0" y="0" width="24" height="24"></rect>
+>>>>>>> 03732536771ffe1abe84c1e5fdc828b77bc1ff11
                 </g>
             </g>
         </g>
