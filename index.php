@@ -34,7 +34,7 @@
                     <img class="main-project-image" width="452" height="405" src="img/index/glifft-img.png" alt="glifft product design">
                     <h2 class="project-title">Glifft</h2>
                     <p class="project-description">My team and I designed the MVP for this mobile application from the ground up, focusing on creating a holistic roadmap while introducing a seamless user experience.</p>
-                    <a href="http://www.callydai.com/projects/glifft" class="button">View Project</a>
+                    <a href="projects/glifft" class="button">View Project</a>
                 </div>
                 <div class="col-2"></div>
             </div>
@@ -46,7 +46,7 @@
                     <img class="main-project-image" width="495" height="405" src="img/index/canopy-img.png" alt="canopy product design">
                     <h2 class="project-title">Canopy</h2>
                     <p class="project-description">Using user research and user testing, I established content hierarchy and a style guide for Canopy’s responsive web learning platform.</p>
-                    <a href="http://www.callydai.com/projects/canopy" class="button">View Project</a>
+                    <a href="projects/canopy" class="button">View Project</a>
                 </div>
                 <div class="col-2"></div>
             </div>
@@ -58,7 +58,7 @@
                     <img class="main-project-image" width="477" height="405" src="img/index/soma-img.png" alt="soma water product design">
                     <h2 class="project-title">Soma Water</h2>
                     <p class="project-description">To drive understanding and conversion for their new offer, I worked closely with growth marketers to redesign Soma Water’s promotional webpage.</p>
-                    <a href="http://www.callydai.com/projects/somawater" class="button">View Project</a>
+                    <a href="projects/somawater" class="button">View Project</a>
                 </div>
                 <div class="col-2"></div>
             </div>
@@ -70,7 +70,7 @@
                     <img class="main-project-image" width="506" height="405" src="img/index/spotify-img.png" alt="spotify product design">
                     <h2 class="project-title">Spotify</h2>
                     <p class="project-description">Using guerilla user testing, I explore how a search feature can greatly benefit Spotify’s mission in helping people find the right songs for any moment.</p>
-                    <a href="http://www.callydai.com/projects/spotify" class="button">View Project</a>
+                    <a href="projects/spotify" class="button">View Project</a>
                 </div>
                 <div class="col-2"></div>
             </div>

@@ -3,14 +3,16 @@
 <!-- Last Published: Fri Jul 08 2016 21:07:12 GMT+0000 (UTC) -->
 <html data-wf-site="571abfc80a8819820933b957" data-wf-page="577db656e3f0f32215830f84">
 <head>
+  <base href="https://mysql-raigovind93.c9users.io/Cally%20Dai/">
   <meta charset="utf-8">
   <title>Spotify</title>
   <meta property="og:title" content="Spotify">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="generator" content="Webflow">
-  <link rel="stylesheet" type="text/css" href="../css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="../css/webflow.css">
-  <link rel="stylesheet" type="text/css" href="../css/callydai.webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/callydai.webflow.css">
+  <link rel="stylesheet" type="text/css" href="style/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script>
     WebFont.load({
@@ -19,28 +21,17 @@
       }
     });
   </script>
-  <script type="text/javascript" src="../js/modernizr.js"></script>
-  <link rel="shortcut icon" type="image/x-icon" href="../images/logosmall.png">
-  <link rel="apple-touch-icon" href="../images/logolarge.png">
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="images/logosmall.png">
+  <link rel="apple-touch-icon" href="images/logolarge.png">
 </head>
 <body>
-  <div class="navigation-bar w-nav" data-animation="default" data-collapse="none" data-contain="1" data-duration="400">
-    <div class="w-container">
-      <nav class="navigation-menu w-nav-menu" role="navigation"><a class="navigation-link w-nav-link" href="http://callydai.com">Portfolio</a><a class="navigation-link w-nav-link" href="resume.pdf" target="_blank">Resume</a><a class="navigation-link w-nav-link" href="../about.html">About</a>
-      </nav>
-      <div class="hamburger-button w-nav-button">
-        <div class="w-icon-nav-menu"></div>
-      </div>
-      <a class="logo-link-block w-inline-block" href="http://callydai.com"><img class="logo" src="../images/logosmall.png">
-        <div class="logo-text">Cally Dai</div>
-      </a>
-    </div>
-  </div>
+  <?php require_once('../php/navigation.php'); ?>
   <div class="w-section">
-    <a class="to-bottom-button w-inline-block" data-ix="invisible" href="#more-projects"><img class="to-bottom-button-image" src="../images/skip project.png">
+    <a class="to-bottom-button w-inline-block" data-ix="invisible" href="#more-projects"><img class="to-bottom-button-image" src="images/skip project.png">
     </a>
     <div class="w-container">
-      <div class="project-header">Spotify: Redesign Using Guerilla User Testing</div><img class="project-image" height="400" src="../images/mainpic.png">
+      <div class="project-header">Spotify: Redesign Using Guerilla User Testing</div><img class="project-image" height="400" src="images/mainpic.png">
       <div class="project-body" data-ix="button-appears">
         <div class="w-richtext">
           <h4>Disclaimer:&nbsp;</h4>
@@ -71,7 +62,7 @@
           <h3 id="persona-development">Persona Development</h3>
           <p>To make sure I keep the ideal user in mind as I go through my process, I created a persona. Meet Dave. Dave is the ideal user to test my hypothesis because he knows how to use Spotify very well and curates and listens to playlists daily. Click below to enlarge image.</p>
         </div>
-        <a class="w-inline-block w-lightbox" href="#"><img class="project-body-image" src="../images/Persona.png" width="60%">
+        <a class="w-inline-block w-lightbox" href="#"><img class="project-body-image" src="images/Persona.png" width="60%">
           <script class="w-json" type="application/json">
             { "items": [{
               "_id": "577ea1f5e3f0f32215857d16",
@@ -82,7 +73,7 @@
               "height": 825,
               "fileSize": 274227,
               "type": "image",
-              "url": "../images/Persona.png"
+              "url": "images/Persona.png"
             }] }
           </script>
         </a>
@@ -98,7 +89,7 @@
           <h4>Outcome</h4>
           <p>After testing 7 users, here are the results: (click to enlarge image)</p>
         </div>
-        <a class="w-inline-block w-lightbox" href="#"><img class="project-body-image" src="../images/User Testing Results.png" width="80%">
+        <a class="w-inline-block w-lightbox" href="#"><img class="project-body-image" src="images/User Testing Results.png" width="80%">
           <script class="w-json" type="application/json">
             { "items": [{
               "_id": "577ea3043a9f1a3f1536951f",
@@ -109,7 +100,7 @@
               "height": 600,
               "fileSize": 171837,
               "type": "image",
-              "url": "../images/User Testing Results.png"
+              "url": "images/User Testing Results.png"
             }] }
           </script>
         </a>
@@ -123,7 +114,7 @@
           <h3 id="testing-synthesis">Testing Synthesis</h3>
           <p>Here are my results according to&nbsp;pain points: (click to enlarge image)</p>
         </div>
-        <a class="w-inline-block w-lightbox" href="#"><img class="project-body-image" src="../images/user pain points2.png" width="80%">
+        <a class="w-inline-block w-lightbox" href="#"><img class="project-body-image" src="images/user pain points2.png" width="80%">
           <script class="w-json" type="application/json">
             { "items": [{
               "_id": "577ea49a044a522433e51523",
@@ -134,7 +125,7 @@
               "height": 987,
               "fileSize": 232970,
               "type": "image",
-              "url": "../images/user pain points2.png"
+              "url": "images/user pain points2.png"
             }] }
           </script>
         </a>
@@ -143,7 +134,7 @@
             <br>
           </p>
         </div>
-        <a class="w-inline-block w-lightbox" href="#"><img class="project-body-image" src="../images/User Testing Synthesis.png" width="80%">
+        <a class="w-inline-block w-lightbox" href="#"><img class="project-body-image" src="images/User Testing Synthesis.png" width="80%">
           <script class="w-json" type="application/json">
             { "items": [{
               "_id": "577ea542e3f0f3221585b01f",
@@ -154,7 +145,7 @@
               "height": 1000,
               "fileSize": 125416,
               "type": "image",
-              "url": "../images/User Testing Synthesis.png"
+              "url": "images/User Testing Synthesis.png"
             }] }
           </script>
         </a>
@@ -166,11 +157,11 @@
             <br>2.&nbsp;&nbsp;&nbsp;&nbsp; Adding Search/Sort to Spotify’s top song charts and to artist pages **
             <br>3.&nbsp;&nbsp;&nbsp;&nbsp; Changing the wording from “Filter” to “Search” to add clarity</p>
           <p>** I decided not to add Search/Sort for radio since radio is normally used without arranging or searching through the queue.</p>
-        </div><img src="../images/sketches.png">
+        </div><img src="images/sketches.png">
         <div class="w-richtext">
           <h3 id="prototype">Prototype</h3>
           <p>Click through my final prototype below!</p>
-        </div><img src="../images/notes.png">
+        </div><img src="images/notes.png">
         <div class="w-richtext">
           <h3>Next Steps</h3>
           <p>This is just one of the methods used in the design process. The next steps for&nbsp;this project would be perform a user test to see if the changes I'm proposing are justified. After, I would iterate on those results, and if needed, do another round of user test to validate.</p>
@@ -183,17 +174,17 @@
       <div class="more-projects-header">View More Projects</div>
       <div class="w-row">
         <div class="dynamic-item w-col w-col-4">
-          <a class="main-page-link-block w-inline-block" href="../projects/glifft.html"><img class="main-page-image" src="../images/glifft main pic square.png" width="300">
+          <a class="main-page-link-block w-inline-block" href="projects/glifft"><img class="main-page-image" src="images/glifft main pic square.png" width="300">
             <div class="main-page-title">Glifft: MVP for Machine-Learning Gifting Mobile Application</div>
           </a>
         </div>
         <div class="dynamic-item w-col w-col-4">
-          <a class="main-page-link-block w-inline-block" href="../projects/canopy.html"><img class="main-page-image" src="../images/canopy main square.png" width="300">
+          <a class="main-page-link-block w-inline-block" href="projects/canopy"><img class="main-page-image" src="images/canopy main square.png" width="300">
             <div class="main-page-title">Canopy: Responsive Web for Interactive Learning Platform</div>
           </a>
         </div>
         <div class="dynamic-item w-col w-col-4">
-          <a class="main-page-link-block w-inline-block" href="../projects/somawater.html"><img class="main-page-image" src="../images/Soma Main Square.png" width="300">
+          <a class="main-page-link-block w-inline-block" href="projects/somawater"><img class="main-page-image" src="images/Soma Main Square.png" width="300">
             <div class="main-page-title">Soma Water: Visual Hierarchy to Optimize Conversion</div>
           </a>
         </div>
@@ -204,19 +195,19 @@
     <div class="w-container">
       <div data-ix="fade-in-bottom-scroll-in">
         <div class="footer-text">Contact Me:</div>
-        <a class="social-icon-link w-inline-block" href="https://www.linkedin.com/in/callydai" target="_blank"><img src="../images/social-09.svg" width="20">
+        <a class="social-icon-link w-inline-block" href="https://www.linkedin.com/in/callydai" target="_blank"><img src="images/social-09.svg" width="20">
         </a>
-        <a class="social-icon-link w-inline-block" href="https://twitter.com/cally_dai" target="_blank"><img src="../images/social-18.svg" width="20">
+        <a class="social-icon-link w-inline-block" href="https://twitter.com/cally_dai" target="_blank"><img src="images/social-18.svg" width="20">
         </a>
-        <a class="social-icon-link w-inline-block" href="https://www.instagram.com/callydai/" target="_blank"><img src="../images/social-07.svg" width="20">
+        <a class="social-icon-link w-inline-block" href="https://www.instagram.com/callydai/" target="_blank"><img src="images/social-07.svg" width="20">
         </a>
-        <a class="social-icon-link w-inline-block" href="mailto:hello@callydai.com"><img src="../images/social-30.svg" width="20">
+        <a class="social-icon-link w-inline-block" href="mailto:hello@callydai.com"><img src="images/social-30.svg" width="20">
         </a>
       </div>
     </div>
   </div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <script type="text/javascript" src="../js/webflow.js"></script>
+  <script type="text/javascript" src="js/webflow.js"></script>
   <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 </body>
 </html>
