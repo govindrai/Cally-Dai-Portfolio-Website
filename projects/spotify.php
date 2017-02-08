@@ -3,7 +3,7 @@
 <!-- Last Published: Fri Jul 08 2016 21:07:12 GMT+0000 (UTC) -->
 <html data-wf-site="571abfc80a8819820933b957" data-wf-page="577db656e3f0f32215830f84">
 <head>
-  <base href="http://callydai.com/">
+  <base href="http://www.callydai.com/">
   <!--<base href="https://mysql-raigovind93.c9users.io/Cally%20Dai/">-->
   <meta charset="utf-8">
   <title>Spotify</title>
