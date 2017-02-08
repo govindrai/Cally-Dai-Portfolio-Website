@@ -1,4 +1,4 @@
-<base href="https://mysql-raigovind93.c9users.io/Cally%20Dai/">
+<!--<base href="https://mysql-raigovind93.c9users.io/Cally%20Dai/">-->
 <base href="http://www.callydai.com/">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
