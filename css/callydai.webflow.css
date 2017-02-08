@@ -746,3 +746,7 @@ html.w-mod-js *[data-ix="invisible"] {
 .project-header {
   margin-top: 100px;
 }
+
+#more-projects {
+  margin-bottom: 60px;
+}

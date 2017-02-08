@@ -241,7 +241,7 @@ footer .hoverable::before {
 }
 
 #social-links {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 #social-links a {
@@ -404,7 +404,8 @@ footer .hoverable::before {
 }
 
 .portfoliov2 a {
-    background-color: #828FC2;
+    color: #828FC2;
+    background-color: inherit;
     cursor: default;
 }
 

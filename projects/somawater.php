@@ -3,7 +3,8 @@
 <!-- Last Published: Fri Jul 08 2016 21:07:12 GMT+0000 (UTC) -->
 <html data-wf-site="571abfc80a8819820933b957" data-wf-page="577d9d1f044a522433e26b04">
 <head>
-  <base href="https://mysql-raigovind93.c9users.io/Cally%20Dai/">
+  <base href="http://callydai.com/">
+  <!--<base href="https://mysql-raigovind93.c9users.io/Cally%20Dai/">-->
   <meta charset="utf-8">
   <title>Soma Water</title>
   <meta property="og:title" content="Soma Water">
@@ -28,8 +29,6 @@
 <body>
   <?php require_once('../php/navigation.php'); ?>
   <div class="w-section" >
-    <a class="to-bottom-button w-inline-block" data-ix="invisible" href="#more-projects"><img class="to-bottom-button-image" src="images/skip project.png">
-    </a>
     <div class="w-container">
       <div class="project-header">Soma Water: Visual Hierarchy to Optimize Conversion</div><img class="project-image" height="400" src="images/Soma Main.png">
       <div class="project-body" data-ix="button-appears">
@@ -49,22 +48,22 @@
         </div>
         <div class="process soma w-row">
           <div class="w-col w-col-2 w-col-small-2 w-col-tiny-2">
-            <a class="persona process-link-block w-inline-block" href="#persona-development"></a>
+            <a class="persona process-link-block w-inline-block" href="javascript:;" onclick="document.location.hash='persona-development';"></a>
           </div>
           <div class="w-col w-col-2 w-col-small-2 w-col-tiny-2">
-            <a class="problem process-link-block w-inline-block" href="#define-problem"></a>
+            <a class="problem process-link-block w-inline-block" href="javascript:;" onclick="document.location.hash='define-problem';"></a>
           </div>
           <div class="w-col w-col-2 w-col-small-2 w-col-tiny-2">
-            <a class="ideation process-link-block w-inline-block" href="#ideation"></a>
+            <a class="ideation process-link-block w-inline-block" href="javascript:;" onclick="document.location.hash='ideation';"></a>
           </div>
           <div class="w-col w-col-2 w-col-small-2 w-col-tiny-2">
-            <a class="process-link-block prototype2 w-inline-block" href="#prototype"></a>
+            <a class="process-link-block prototype w-inline-block" href="javascript:;" onclick="document.location.hash='prototyping';"></a>
           </div>
           <div class="w-col w-col-2 w-col-small-2 w-col-tiny-2">
-            <a class="process-link-block testing w-inline-block" href="#usability-testing"></a>
+            <a class="process-link-block testing w-inline-block" href="javascript:;" onclick="document.location.hash='usability-testing';"></a>
           </div>
           <div class="w-col w-col-2 w-col-small-2 w-col-tiny-2">
-            <a class="iteration process-link-block w-inline-block" href="#iteration"></a>
+            <a class="iteration process-link-block w-inline-block" href="javascript:;" onclick="document.location.hash='iteration';"></a>
           </div>
         </div>
         <div class="w-richtext">
@@ -163,7 +162,7 @@
           <p>Next, we moved on to Crazy 8’s, an activity where we sketched 8 lo-fi variations of our design ideas in 5 minutes. This exercise jumpstarted us into our design thinking and prompted us to learn from each other’s ideas. We then sketched out full pages and shared our ideas.</p>
         </div><img class="project-body-image" src="images/Soma Crazy 8s.JPG" width="80%"><img class="project-body-image" src="images/Soma Sketches.jpg" width="80%">
         <div class="w-richtext">
-          <h3 id="prototype">Prototype</h3>
+          <h3 id="prototyping">Prototype</h3>
           <p>We absorbed each other’s ideas, and&nbsp;<strong>diverged</strong>&nbsp;into creating our own variations in mid-fidelity.</p>
         </div><img class="project-body-image" src="images/Soma Diverged Designs.png" width="80%"><img class="project-body-image" src="images/medfi-reviews.JPG" width="80%">
         <div class="w-richtext">
@@ -203,38 +202,27 @@
       <div class="more-projects-header">View More Projects</div>
       <div class="w-row">
         <div class="dynamic-item w-col w-col-4">
-          <a class="main-page-link-block w-inline-block" href="projects/glifft"><img class="main-page-image" src="images/glifft main pic square.png" width="300">
+          <a class="main-page-link-block w-inline-block" href="projects/glifft.php"><img class="main-page-image" src="images/glifft main pic square.png" width="300">
             <div class="main-page-title">Glifft: MVP for Machine-Learning Gifting Mobile Application</div>
           </a>
         </div>
         <div class="dynamic-item w-col w-col-4">
-          <a class="main-page-link-block w-inline-block" href="projects/canopy"><img class="main-page-image" src="images/canopy main square.png" width="300">
+          <a class="main-page-link-block w-inline-block" href="projects/canopy.php"><img class="main-page-image" src="images/canopy main square.png" width="300">
             <div class="main-page-title">Canopy: Responsive Web for Interactive Learning Platform</div>
           </a>
         </div>
         <div class="dynamic-item w-col w-col-4">
-          <a class="main-page-link-block w-inline-block" href="projects/spotify"><img class="main-page-image" src="images/mainpicsquare.png" width="300">
+          <a class="main-page-link-block w-inline-block" href="projects/spotify.php"><img class="main-page-image" src="images/mainpicsquare.png" width="300">
             <div class="main-page-title">Spotify: Redesign Using Guerilla User Testing</div>
           </a>
         </div>
       </div>
     </div>
   </div>
-  <div class="footer w-section">
-    <div class="w-container">
-      <div data-ix="fade-in-bottom-scroll-in">
-        <div class="footer-text">Contact Me:</div>
-        <a class="social-icon-link w-inline-block" href="https://www.linkedin.com/in/callydai" target="_blank"><img src="images/social-09.svg" width="20">
-        </a>
-        <a class="social-icon-link w-inline-block" href="https://twitter.com/cally_dai" target="_blank"><img src="images/social-18.svg" width="20">
-        </a>
-        <a class="social-icon-link w-inline-block" href="https://www.instagram.com/callydai/" target="_blank"><img src="images/social-07.svg" width="20">
-        </a>
-        <a class="social-icon-link w-inline-block" href="mailto:hello@callydai.com"><img src="images/social-30.svg" width="20">
-        </a>
-      </div>
-    </div>
-  </div>
+  <?php 
+      require_once('../php/footer.php'); 
+      require_once('../php/scripts.php'); 
+  ?>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
   <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
