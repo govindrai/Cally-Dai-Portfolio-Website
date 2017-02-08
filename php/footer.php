@@ -7,10 +7,10 @@
             <?php require('navlinks.php'); ?>
         </nav>
         <div class="col-12" id="social-links">
-            <a href=""><div class="social-logo"></div></a>
-            <a href=""><div class="social-logo"></div></a>
-            <a href=""><div class="social-logo"></div></a>
-            <a href=""><div class="social-logo"></div></a>
+            <a target="_blank" href="https://www.linkedin.com/in/callydai"><div class="social-logo"></div></a>
+            <a target="_blank" href="https://dribbble.com/callydai"><div class="social-logo"></div></a>
+            <a target="_blank" href="mailto:hello@callydai.com"><div class="social-logo"></div></a>
+            <a target="_blank" href="https://www.instagram.com/callydai"><div class="social-logo"></div></a>
         </div>
         <div class="col-12" id="copyright">
             &copy; Cally Dai 2017
