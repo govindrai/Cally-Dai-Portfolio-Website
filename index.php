@@ -22,16 +22,20 @@
                 </div>
                 <div class="col-1"></div>
                 <div class="col-10">
-                    <p class="project-description">Hello, and welcome to my portfolio! Here is where I display some of my previous work. For any inquiries or feedback, please feel free to <span class="pink-link"><a href="contact.php">contact me</a></span>. Hope you enjoy!</p>
-                </div>
+                    <p class="project-description">Hello, and welcome to my portfolio! For inquiries or feedback, please <a class="pink-link" href="contact.php">contact me</a>.</p>
+                    <div class="quick-links">
+                        <a class="pink-link">Case Studies</a>&nbsp;&#8226;&nbsp;<a class="pink-link">Other Works</a>
+                    </div>
                 <div class="col-1"></div>
             </div>
         </section>
         <section class="projects glifft">
             <div class="container">
-                <div class="col-2"></div>
-                <div class="col-8">
+                <!--<div class="col-2"></div>-->
+                <div class="col-5">
                     <img class="main-project-image" width="452" height="405" src="img/index/glifft-img.png" alt="glifft product design">
+                </div>
+                <div class="col-7">
                     <h2 class="project-title">Glifft</h2>
                     <p class="project-description">My team and I designed the MVP for this mobile application from the ground up, focusing on creating a holistic roadmap while introducing a seamless user experience.</p>
                     <a href="projects/glifft" class="button">View Project</a>

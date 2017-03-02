@@ -325,12 +325,23 @@ footer .hoverable::before {
     height: 450px;
 }
 
+.quick-links {
+    display: block;
+    margin: 30px 0 0;
+    text-transform: uppercase;
+    font: 12px "Open Sans", sans-serif;
+}
+
 .portfoliov2 {
     background-color: #ebeef8;
 }
 
 .glifft {
     background-color: #ebf5f8;
+}
+
+.projects.glifft {
+    margin-top: 0px;
 }
 
 .canopy {
@@ -345,6 +356,17 @@ footer .hoverable::before {
     background-color: #ebf8f0;
 }
 
+.projects {
+    margin: 15px 0;
+}
+
+.projects .col-7 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 .project-title {
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
@@ -352,12 +374,12 @@ footer .hoverable::before {
     letter-spacing: 1.5px;
 }
 
-.pink-link a {
+.pink-link {
     color: #f49191;
     text-decoration: underline;
 }
 
-.pink-link a:hover {
+.pink-link:hover {
     color: #d96262;
 }
 
