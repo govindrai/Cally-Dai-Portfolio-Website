@@ -9,12 +9,20 @@
     padding: 60px 0;
     margin: auto;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .container::after {
     content: '';
     clear: both;
     display: block;
+}
+
+.row-reverse {
+    flex-flow: row-reverse;
+    flex-wrap: wrap;
 }
 
 body {
@@ -66,7 +74,7 @@ main {
 
 .hero-title {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 600;
     line-height: 60px;
     letter-spacing: 3.3px;
     margin: 0;
@@ -74,7 +82,7 @@ main {
 
 .hero-subtitle {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 3px;
 }
 
@@ -99,7 +107,7 @@ main {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     line-height: 20px;
-    font-weight: 600;
+    font-weight: 400;
     top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -155,6 +163,14 @@ nav a:active {
 
 .right-align {
     text-align: right;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.center-align {
+    text-align: center;
 }
 
 .hoverable {
@@ -325,24 +341,47 @@ footer .hoverable::before {
     height: 450px;
 }
 
-.portfoliov2 {
+.quick-links {
+    display: block;
+    margin: 30px 0 0;
+    text-transform: uppercase;
+    font: 600 12px "Open Sans", sans-serif;
+}
+
+#portfoliov2 {
     background-color: #ebeef8;
 }
 
-.glifft {
+#glifft {
     background-color: #ebf5f8;
 }
 
-.canopy {
-    background-color: #ffffff;
+#canopy {
+    background-color: #ebf8f0;
 }
 
-.soma-water {
+#soma-water {
     background-color: #f8f4eb;
 }
 
-.spotify {
+#spotify {
     background-color: #ebf8f0;
+}
+
+.projects {
+    margin: 15px 0;
+}
+
+section:nth-of-type(2) {
+    margin-top: 0;
+}
+
+section:nth-of-type(4) {
+    margin-bottom: 0;
+}
+
+.projects .col-7 {
+    text-align: left;
 }
 
 .project-title {
@@ -350,19 +389,17 @@ footer .hoverable::before {
     font-size: 24px;
     line-height: 1.88;
     letter-spacing: 1.5px;
+    font-weight: 400;
 }
 
-.pink-link a {
+.pink-link {
     color: #f49191;
     text-decoration: underline;
 }
 
-.pink-link a:hover {
+.pink-link:hover {
     color: #d96262;
 }
-
-
-/* new */
 
 .project-description {
     line-height: 30px;
@@ -372,10 +409,6 @@ footer .hoverable::before {
 .main-project-image {
     max-width: 100%;
     height: auto;
-}
-
-.left-align {
-    text-align: left;
 }
 
 .button {
@@ -389,10 +422,14 @@ footer .hoverable::before {
     letter-spacing: 1.5px;
     color: #ffffff;
     text-transform: uppercase;
-    margin: 30px auto 0 auto;
+    margin: 30px auto 0 0;
     display: inline-block;
     cursor: pointer;
     transition: background-color .2s;
+}
+
+.centered-button {
+    margin: 30px auto;
 }
 
 .button.contact-button {
@@ -403,46 +440,105 @@ footer .hoverable::before {
     background-color: #D96161;
 }
 
-.portfoliov2 a {
+#portfoliov2 a {
     color: #828FC2;
     background-color: inherit;
     cursor: default;
 }
 
-.glifft a {
+#glifft a {
     background-color: #48C6D4;
 }
 
-.glifft a:hover {
+#glifft a:hover {
     background-color: #00A8BA;
 }
 
-.canopy a {
+#canopy a {
     background-color: #76B38E;
 }
 
-.canopy a:hover {
+#canopy a:hover {
     background-color: #3C8C5B;
 }
 
-.soma-water a {
+#soma-water a {
     background-color: #E6C173;
 }
 
-.soma-water a:hover {
+#soma-water a:hover {
     background-color: #D4A43B;
 }
 
-.spotify a {
+#spotify a {
     background-color: #5ABF7D;
 }
 
-.spotify a:hover {
+#spotify a:hover {
     background-color: #169E45;
 }
 
 #spacer60 {
     height: 60px;
+}
+
+#other-works {
+    font-family: "Open Sans", sans-serif;
+}
+
+#other-works .project-title {
+    margin: 0 0 45px 0;
+}
+
+.other-works-title {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2.5;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    margin: 15px 0 60px 0;
+}
+.other-works-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.image-with-overlay {
+    position: relative;
+}
+
+.dark-black-overlay {
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    opacity: 0;
+    transition: opacity .3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.other-works-title:hover .dark-black-overlay,
+.image-with-overlay:hover .dark-black-overlay {
+    opacity: 1;
+}
+
+.gray-divider {
+    height: 1px;
+    background-color: #e4e8f7;
+}
+
+#feedback {
+    margin-top: -90px;
 }
 
 
@@ -626,6 +722,9 @@ textarea {
     .container {
         max-width: 970px;
     }
+    .col-4 {
+        width: 50%;
+    }
 }
 
 @media (max-width: 992px) {
@@ -667,6 +766,9 @@ textarea {
     }
     #index-hero {
         padding-top: 56px;
+    }
+    .projects .col-7 {
+        text-align: center;
     }
 }
 
