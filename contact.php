@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-2"></div>
                 <div class="col-8">
-                    <p class="project-description">Contact me regarding any feedback or business inquiries — I would love to chat! Use the form below or send an email to <span class="pink-link"><a href="mailto:hello@callydai.com?subject=Cally, I was on your website">hello@callydai.com</a></span>, and I will reply as soon as I can.</p>
+                    <p class="project-description">Contact me regarding any feedback or business inquiries — I would love to chat! Use the form below or send an email to <a class="pink-link" href="mailto:hello@callydai.com?subject=Cally, I was on your website">hello@callydai.com</a>, and I will reply as soon as I can.</p>
                 </div>
                 <div class="col-2"></div>
                 <div class="col-3"></div>
@@ -26,7 +26,7 @@
                         <input type="text" name="subject" placeholder="Subject Title" onkeydown="showLabel(this);" required>
                         <span>Message</span>
                         <textarea onkeydown="showLabel(this);" placeholder="Write your message here..."></textarea>
-                        <button class="button contact-button" type="submit">Get in Touch</a></button>
+                        <button class="button contact-button centered-button" type="submit">Get in Touch</a></button>
                     </form>
                     <div id="spacer60"></div>
                 </div>

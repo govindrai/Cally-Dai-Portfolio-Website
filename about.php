@@ -24,10 +24,10 @@
                 <div class="col-2"></div>
                 <div class="col-8">
                     <div class="project-description left-align">
-                        <p>My name is Cally and I design things with ingenuity, thoroughness, and empathy. A creative career transplant, I’m on a transformative mission to expand my skill set and establish by personal style. How am I doing? Check me out on <span class="pink-link"><a target="_blank" href="https://dribbble.com/callydai">Dribbble!</a></span></p>
+                        <p>My name is Cally and I design things with ingenuity, thoroughness, and empathy. A creative career transplant, I’m on a transformative mission to expand my skill set and establish by personal style. How am I doing? Check me out on <a class="pink-link" target="_blank" href="https://dribbble.com/callydai">Dribbble!</a></p>
                         <p>I am at my happiest when I'm eating good food, traveling to new places, and meeting dogs of all shapes and sizes.</p>
                         <p>Currently looking for opportunities to create meaningful designs with an energetic and welcoming team.</p>
-                        <p>Want to meet? <span class="pink-link"><a href="contact.php">Let’s grab food or coffee!</a></span></p>
+                        <p>Want to meet? <a class="pink-link" href="contact.php">Let’s grab food or coffee!</a></p>
                     </div>
                 <div class="col-2"></div>
             </div>

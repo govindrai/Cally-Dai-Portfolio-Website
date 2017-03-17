@@ -1,10 +1,10 @@
-<base href="https://mysql-raigovind93.c9users.io/Cally%20Dai/">
-<!--<base href="http://www.callydai.com/">-->
+<!--<base href="https://mysql-raigovind93.c9users.io/Cally%20Dai/">-->
+<base href="http://www.callydai.com/">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style/normalize.css" type="text/css" />
 <link rel="stylesheet" href="style/style.css" type="text/css" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora%7COpen+Sans:300i,400,400i">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora%7COpen+Sans:300i,400,400i,700">
 <link rel="shortcut-icon" type="image/svg" href="img/general/favicon.svg"/>
 
 <?php require_once('favicon.php'); ?>
