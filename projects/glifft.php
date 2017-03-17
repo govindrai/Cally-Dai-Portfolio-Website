@@ -3,8 +3,8 @@
 <!-- Last Published: Fri Jul 08 2016 21:07:12 GMT+0000 (UTC) -->
 <html data-wf-site="571abfc80a8819820933b957" data-wf-page="577db5003a9f1a3f1533adae">
 <head>
-  <!--<base href="http://www.callydai.com/">-->
-  <base href="https://mysql-raigovind93.c9users.io/Cally%20Dai/">
+  <base href="http://www.callydai.com/">
+  <!--<base href="https://mysql-raigovind93.c9users.io/Cally%20Dai/">-->
   <meta charset="utf-8">
   <title>Glifft</title>
   <meta property="og:title" content="Glifft">
