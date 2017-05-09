@@ -73,27 +73,27 @@
                 </div>
                 <div class="col-4">
                     <div><img src="img/index/somawater.png"></div>
-                    <a href="https://dribbble.com/shots/3295214-Astronaut-and-the-Moon" class="other-works-title" >Soma Water Landing Page Redesign</a>
+                    <div class="other-works-title" >Soma Water Landing Page Redesign</div>
                 </div>
                 <div class="col-4">
                     <div><img src="img/index/bangbang.png"></div>
-                    <a href="https://bangbang.do/" class="other-works-title" >!!BANGBANG Homepage Redesign</a>
+                    <div class="other-works-title" >!!BANGBANG Homepage Redesign</div>
                 </div>
                 <div class="col-4">
                     <div><img src="img/index/dashboard.png"></div>
-                    <a href="https://progressly.com/" class="other-works-title" >Dashboard Analytics</a>
+                    <div class="other-works-title" >Dashboard Analytics</div>
                 </div>
                 <div class="col-4">
                     <div><img src="img/index/guestaccess.png"></div>
-                    <a href="https://dribbble.com/shots/3277469-Harry-Ron-and-Hermione-Year-1" class="other-works-title" >Guest Access Flow</a>
+                    <div class="other-works-title" >Guest Access Flow</div>
                 </div>
                 <div class="col-4">
                     <div><img src="img/index/marketing.png"></div>
-                    <a href="https://progressly.com/" class="other-works-title" >Progressly Marketing Pages</a>
+                    <div class="other-works-title" >Progressly Marketing Pages</div>
                 </div>
-                <div class="col-4">
+                <div id="modal-4" class="col-4">
                     <div><img src="img/index/engineering.png"></div>
-                    <a href="https://progressly.com/"class="other-works-title" >Engineering Landing Page</a>
+                    <div class="other-works-title" >Engineering Landing Page</div>
                 </div>
                 <div class="col-2"></div>
                 <div class="col-8">
@@ -104,7 +104,8 @@
         </section>
         <section id='other-works-modals' class="col-12">
             <div id="plyengineering-modal" class="modal col-10">
-                <div class="col-10">
+                <div class="col-10 modal-content">
+                    <div id="x-button">&#x2573;</div>
                     <div class="gif-container">
                         <img class="modal-hero-image" src="img/index/macbook.png"></img>
                         <img class="gif" src="img/index/engineering.gif"/>
@@ -130,9 +131,32 @@
             require_once('php/scripts.php'); 
         ?>
         
-        <script type="text/javascript" src="/scripts/index-overlays.js"></script>
+        <script type="text/javascript" src="scripts/index-overlays.js"></script>
         <script type="text/javascript">
-            smoothScroll.init()
+            document.getElementById("other-works").addEventListener('click', function(e) {
+                console.log("SLKJFLSJF:LSJDF")
+                console.log(e)
+                console.log(e.target);
+                if (e.target.className == 'other-works-title') {
+                    var index = Array.from(document.querySelectorAll('.other-works-title')).indexOf(e.target)
+                    document.querySelectorAll('.modal')[index].style.display = "flex";
+                    document.getElementById("other-works-modals").style.display = "flex";
+                }
+            });
+            
+            document.getElementById("x-button").onclick = function() {
+                document.getElementById("other-works-modals").style.display = "none";
+                this.parentElement.parentElement.style.display = "none"
+            }
+            
+            // document.getElementById("#other-works-engineering").onclick = function () {
+            //     document.getElementById("plyengineering-modal").classList.add("show");
+            // };
+            // document.getElementById("#x-button").onclick = function () {
+            //     document.getElementById("plyengineering-modal").classList.remove("show");
+            // };
+            
+            smoothScroll.init();
         </script>
     </body>
 </html>

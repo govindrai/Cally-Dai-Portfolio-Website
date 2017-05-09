@@ -603,7 +603,7 @@ section:nth-of-type(4) {
 
 #other-works-modals {
     background-color: rgba(0, 0, 0, 0.85);
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     position: fixed;
@@ -615,7 +615,7 @@ section:nth-of-type(4) {
 }
 
 .modal {
-    display: flex;
+    display: none;
     justify-content: center;
 }
 
@@ -830,6 +830,21 @@ textarea {
 
 .col-12 {
     width: 100%;
+}
+
+.show {
+    display: flex;
+}
+
+#x-button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.modal-content {
+    position: relative;
+    font-weight: bold;
 }
 
 
