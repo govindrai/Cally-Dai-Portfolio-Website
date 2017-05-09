@@ -1,5 +1,6 @@
 /* general styles */
 
+@import url('https://fonts.googleapis.com/css?family=Glegoo:400,700');
 * {
     box-sizing: border-box;
 }
@@ -27,7 +28,8 @@
 
 body {
     margin: 0;
-    font-family: 'Lora', serif;
+    font-family: 'Glegoo', serif;
+    font-size: 15px;
     color: #292e41;
 }
 
