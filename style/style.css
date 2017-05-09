@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+[class*="col-"] {
+    float: left;
+    padding: 0 15px;
+    min-height: 1px;
+}
+
 .container {
     max-width: 1170px;
     padding: 60px 0;
@@ -37,6 +43,29 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 48px;
     color: #292e41;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #292e41;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #292e41;
+    margin: 0px;
 }
 
 a {
@@ -569,6 +598,68 @@ section:nth-of-type(4) {
     background-color: #e4e8f7;
 }
 
+
+/* Other Works Modals*/
+
+#other-works-modals {
+    background-color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+}
+
+.modal div.col-10 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 60px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.modal p {
+    line-height: 1.88;
+}
+
+.modal-hero-image,
+.modal-logo {
+    margin-bottom: 30px;
+}
+
+.modal-hero-image {
+    width: 100%;
+    position: relative;
+    z-index: 5;
+}
+
+.gif-container {
+    max-width: 540px;
+    position: relative;
+}
+
+.gif {
+    position: absolute;
+    top: 7%;
+    left: 11.4%;
+    z-index: 1;
+    max-width: 77%;
+}
+
+.modal-heading {
+    margin-bottom: 15px;
+}
+
 #feedback {
     margin-top: -90px;
 }
@@ -739,12 +830,6 @@ textarea {
 
 .col-12 {
     width: 100%;
-}
-
-[class*="col-"] {
-    float: left;
-    padding: 0 15px;
-    min-height: 1px;
 }
 
 

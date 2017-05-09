@@ -102,6 +102,19 @@
                 <div class="col-2"></div>
             </div>
         </section>
+        <section id='other-works-modals' class="col-12">
+            <div id="plyengineering-modal" class="modal col-10">
+                <div class="col-10">
+                    <div class="gif-container">
+                        <img class="modal-hero-image" src="img/index/macbook.png"></img>
+                        <img class="gif" src="img/index/engineering.gif"/>
+                    </div>
+                    <img class="modal-logo" src="img/index/progresslylogo.svg"/>
+                    <h3 class="modal-heading">Engineering Page</h3>
+                    <p>Progressly is a software company that provides solutions for process documentation and execution. To increase interest in open engineering posititons, I pioneered a landing page dedicated to demonstrate Progressly’s company and engineering culture. This directly increased the number of applications received for developer roles.</p>
+                </div>
+            </div>
+        </section>
         <section id="feedback">
             <div class="container">
                 <div class="col-12">
@@ -111,6 +124,7 @@
                 </div>
             </div>
         </section>
+        
         <?php 
             require_once('php/footer.php'); 
             require_once('php/scripts.php'); 
