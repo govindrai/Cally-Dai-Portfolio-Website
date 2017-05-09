@@ -505,15 +505,16 @@ section:nth-of-type(4) {
 #other-works img {
     height: 100%;
     width: 100%;
+    display: block;
 }
 
-#other-works .col-4 {
+#other-works .col-4 div {
     overflow: hidden;
 }
 
 #other-works img:hover {
-    transition-duration: 0.3s;
-    transform: scale(1.05);
+    transition-duration: 0.2s;
+    transform: scale(1.1);
 }
 
 #other-works .project-title {

@@ -72,27 +72,27 @@
                     <h2 class="project-title">Other Works</h2>
                 </div>
                 <div class="col-4">
-                    <img src="img/index/somawater.png">
+                    <div><img src="img/index/somawater.png"></div>
                     <a href="https://dribbble.com/shots/3295214-Astronaut-and-the-Moon" class="other-works-title" >Soma Water Landing Page Redesign</a>
                 </div>
                 <div class="col-4">
-                    <img src="img/index/bangbang.png">
+                    <div><img src="img/index/bangbang.png"></div>
                     <a href="https://bangbang.do/" class="other-works-title" >!!BANGBANG Homepage Redesign</a>
                 </div>
                 <div class="col-4">
-                    <img src="img/index/dashboard.png">
+                    <div><img src="img/index/dashboard.png"></div>
                     <a href="https://progressly.com/" class="other-works-title" >Dashboard Analytics</a>
                 </div>
                 <div class="col-4">
-                    <img src="img/index/guestaccess.png">
+                    <div><img src="img/index/guestaccess.png"></div>
                     <a href="https://dribbble.com/shots/3277469-Harry-Ron-and-Hermione-Year-1" class="other-works-title" >Guest Access Flow</a>
                 </div>
                 <div class="col-4">
-                    <img src="img/index/marketing.png">
+                    <div><img src="img/index/marketing.png"></div>
                     <a href="https://progressly.com/" class="other-works-title" >Progressly Marketing Pages</a>
                 </div>
                 <div class="col-4">
-                    <img src="img/index/engineering.png">
+                    <div><img src="img/index/engineering.png"></div>
                     <a href="https://progressly.com/"class="other-works-title" >Engineering Landing Page</a>
                 </div>
                 <div class="col-2"></div>
@@ -115,6 +115,8 @@
             require_once('php/footer.php'); 
             require_once('php/scripts.php'); 
         ?>
+        
+        <script type="text/javascript" src="/scripts/index-overlays.js"></script>
         <script type="text/javascript">
             smoothScroll.init()
         </script>
