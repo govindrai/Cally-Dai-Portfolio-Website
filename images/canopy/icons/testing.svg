@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/testing</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11,8.8817842e-16 C20,-7.10542736e-16 20,0.5 20,6 C20,11.5 20,11.5 11,11.5 C2,11.5 0,11.5 0,11.5 C0,11.5 2,11.5 2,6 C2,0.5 2,3.72094787e-15 11,8.8817842e-16 Z" id="path-1"></path>
+        <path d="M13,12.5 C22,12.5 22,12.5 22,18 C22,23.5 24,24 24,24 C24,24 19.2362425,24 13,24 C4,24 4,23.5 4,18 C4,12.5 4,12.5 13,12.5 Z" id="path-2"></path>
+    </defs>
+    <g id="Case-Studies" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Canopy-Case-Study" transform="translate(-180.000000, -7088.000000)">
+            <g id="Prototype-and-test" transform="translate(85.000000, 7085.000000)">
+                <g id="Prototype-Title">
+                    <g id="Icon/testing" transform="translate(95.000000, 3.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                        <g id="shapes">
+                            <g id="Rectangle-4">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <path stroke="#292E41" stroke-width="1.5" d="M1.91590484,10.75 C2.45362863,9.71524704 2.75,8.16580744 2.75,6 L2.75,6 C2.75,0.726589073 2.71758487,0.75 11,0.75 C15.8247582,0.75 17.5910479,0.935351392 18.4358821,1.54550942 C19.1223327,2.04127931 19.25,2.7860052 19.25,6 C19.25,10.9877765 19.6390888,10.75 11,10.75 C4.6671186,10.75 3.72152797,10.75 1.91590478,10.75 L1.91590484,10.75 Z"></path>
+                            </g>
+                            <g id="Rectangle-4-Copy">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                <path stroke="#292E41" stroke-width="1.5" d="M22.2416893,23.25 C21.5547215,23.25 20.4944616,23.25 18.6235152,23.25 C16.0363165,23.25 16.0363165,23.25 13,23.25 C4.71758487,23.25 4.75,23.2734109 4.75,18 C4.75,13.0122235 4.36091119,13.25 13,13.25 L13,13.25 C21.6390888,13.25 21.25,13.0122235 21.25,18 C21.25,20.387915 21.609885,22.1006903 22.2416893,23.25 L22.2416893,23.25 Z"></path>
+                            </g>
+                            <circle id="Oval-3" fill="#292E41" cx="11" cy="6" r="1"></circle>
+                            <circle id="Oval-3-Copy" fill="#292E41" cx="7" cy="6" r="1"></circle>
+                            <circle id="Oval-3-Copy-2" fill="#292E41" cx="15" cy="6" r="1"></circle>
+                            <path d="M12.9099998,16.6875 C12.9099998,16.6875 14.6996365,13.905608 16.7004698,15.905608 C18.7013031,17.905608 12.9099998,21.6875 12.9099998,21.6875 C12.9099998,21.6875 7.15406986,17.905608 9.15490312,15.905608 C11.1557364,13.905608 12.9099998,16.6875 12.9099998,16.6875 Z" id="Path-3" fill="#5BC876"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

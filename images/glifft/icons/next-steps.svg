@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/next steps</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="24"></rect>
+        <path d="M8.99140807,18.0156212 C12.1008567,15.8216483 8.35349297,12.931098 8.35349297,9.4898196 C8.35349297,6.04854123 8.35349297,-0.640041394 4.59323825,0.341802615 C0.832983524,1.32364662 0.276820486,5.58340277 1.12116168,9.4898196 C1.96550287,13.3962364 5.88195943,20.209594 8.99140807,18.0156212 Z" id="path-3"></path>
+        <path d="M8.99140807,18.0156212 C12.1008567,15.8216483 8.35349297,12.931098 8.35349297,9.4898196 C8.35349297,6.04854123 8.35349297,-0.640041394 4.59323825,0.341802615 C0.832983524,1.32364662 0.276820486,5.58340277 1.12116168,9.4898196 C1.96550287,13.3962364 5.88195943,20.209594 8.99140807,18.0156212 Z" id="path-4"></path>
+    </defs>
+    <g id="Case-Studies" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Glifft-Case-Study" transform="translate(-180.000000, -8575.000000)">
+            <g id="Next-Steps" transform="translate(85.000000, 8572.000000)">
+                <g id="Next-Steps-Title">
+                    <g id="Icon/next-steps" transform="translate(95.000000, 3.000000)">
+                        <g>
+                            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                            <g id="shapes">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Mask"></g>
+                                <g id="Group-2" mask="url(#mask-2)">
+                                    <g transform="translate(-1.300000, -2.000000)">
+                                        <g id="Group" stroke="none" stroke-width="1" fill-rule="evenodd" transform="translate(0.600000, 7.400000)">
+                                            <g id="Oval-5">
+                                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                                <path stroke="#292E41" stroke-width="1.16080674" d="M8.65679408,17.5413833 C7.56904941,18.308877 6.16609034,17.6375128 4.66709458,15.6867269 C3.31065914,13.9214682 2.11490716,11.3401734 1.68846484,9.3672015 C0.749893941,5.02482287 1.75389875,1.68304831 4.73987173,0.903377806 C6.04421827,0.562798529 6.84147602,1.38111446 7.31875796,3.39122378 C7.68681776,4.94133571 7.7730896,6.55013127 7.7730896,9.4898196 C7.7730896,10.6193183 8.06380065,11.5682887 8.75750923,13.1575412 C9.95076661,15.8912358 10.0079681,16.5880184 8.65679408,17.5413833 Z"></path>
+                                            </g>
+                                            <path d="M4.14289967,14.0122314 L8.32366564,11.2272727" id="Path-9" stroke="#292E41" stroke-width="1.27500004"></path>
+                                        </g>
+                                        <g id="Group-Copy" stroke="none" stroke-width="1" fill-rule="evenodd" transform="translate(14.500000, 11.204908) scale(-1, 1) rotate(11.000000) translate(-14.500000, -11.204908) translate(9.000000, 1.704908)">
+                                            <g id="Oval-5">
+                                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                                <path stroke="#292E41" stroke-width="1.16080674" d="M8.65679408,17.5413833 C7.56904941,18.308877 6.16609034,17.6375128 4.66709458,15.6867269 C3.31065914,13.9214682 2.11490716,11.3401734 1.68846484,9.3672015 C0.749893941,5.02482287 1.75389875,1.68304831 4.73987173,0.903377806 C6.04421827,0.562798529 6.84147602,1.38111446 7.31875796,3.39122378 C7.68681776,4.94133571 7.7730896,6.55013127 7.7730896,9.4898196 C7.7730896,10.6193183 8.06380065,11.5682887 8.75750923,13.1575412 C9.95076661,15.8912358 10.0079681,16.5880184 8.65679408,17.5413833 Z"></path>
+                                            </g>
+                                            <path d="M4.14289967,14.0122314 L8.32366564,11.2272727" id="Path-9" stroke="#292E41" stroke-width="1.27500004"></path>
+                                        </g>
+                                        <path d="M21.3,26 L21.3,15" id="Path-8" stroke="#00BFD4" stroke-width="1.5"></path>
+                                        <polyline id="Path-10" stroke="#00BFD4" stroke-width="1.5" points="18.3 19 21.3 14 24.3 19"></polyline>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

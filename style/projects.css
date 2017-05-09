@@ -1,0 +1,126 @@
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #292e41;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #292e41;
+    margin: 0px;
+}
+
+li {
+    line-height: 30px;
+    padding-left: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+li:first-of-type {
+    margin-top: 30px;
+}
+
+li:last-of-type {
+    margin-bottom: 30px;
+}
+
+main-project {
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    flex-flow: column;
+}
+
+.project-container {
+    max-width: 1280px;
+    padding: 60px 0px 0px 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.glifft-section-highlight {
+    background-color: #ebf5f8;
+}
+
+.canopy-section-highlight {
+    background-color: #ebf7f0;
+}
+
+.project-body-image {
+    display: block;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-image-caption {
+    display: block;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.process-title-glifft {
+    background-image: url(../images/glifft/titlebackground.png);
+    height: 40px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.process-title-canopy {
+    background-image: url(../images/canopy/titlebackground.png);
+    height: 40px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.process-icon {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.process-name {
+    display: inline-block;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.left-align-spacer {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.caption {
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 15px;
+    text-align: center;
+    color: #8a8d99;
+    margin-top: 0;
+    margin-bottom: 45px;
+}

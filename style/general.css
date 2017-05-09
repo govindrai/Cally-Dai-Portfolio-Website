@@ -3,12 +3,18 @@
 body {
     margin: 0;
     font-family: 'Lora', serif;
+    font-size: 16px;
     color: #292e41;
-    line-height: 1.88
 }
 
 h1 {
     font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #292e41;
 }
 
 a {
@@ -26,8 +32,9 @@ nav a {
 }
 
 p {
+    line-height: 30px;
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
 }
 
 p:last-of-type {

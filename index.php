@@ -72,6 +72,15 @@
                     <h2 class="project-title">Other Works</h2>
                 </div>
                 <div class="col-4">
+                    <a href="/projects/somawater">
+                        <div class="image-with-overlay" onmouseover="forceUnderline(this);" onmouseout="removeUnderline(this)">
+                            <img width="350px" height="300px" src="img/index/somawater.png">
+                            <div class="dark-black-overlay">View on Dribbble</div>
+                        </div>
+                    </a>
+                    <a href="https://dribbble.com/shots/3295214-Astronaut-and-the-Moon" class="other-works-title" onmouseover="forceOverlay(this);" onmouseout="removeOverlay(this)">Astronaut and the Moon</a>
+                </div>
+                <div class="col-4">
                     <a href="https://bangbang.do/">
                         <div class="image-with-overlay" onmouseover="forceUnderline(this);" onmouseout="removeUnderline(this)">
                             <img src="img/index/bangbang-homepage.png">
@@ -106,15 +115,6 @@
                         </div>
                     </a>
                     <a href="https://progressly.com/"class="other-works-title" onmouseover="forceOverlay(this);" onmouseout="removeOverlay(this)">Engineering Landing Page</a>
-                </div>
-                <div class="col-4">
-                    <a href="https://dribbble.com/shots/3295214-Astronaut-and-the-Moon">
-                        <div class="image-with-overlay" onmouseover="forceUnderline(this);" onmouseout="removeUnderline(this)">
-                            <img src="img/index/astronaut.png">
-                            <div class="dark-black-overlay">View on Dribbble</div>
-                        </div>
-                    </a>
-                    <a href="https://dribbble.com/shots/3295214-Astronaut-and-the-Moon" class="other-works-title" onmouseover="forceOverlay(this);" onmouseout="removeOverlay(this)">Astronaut and the Moon</a>
                 </div>
                 <div class="col-4">
                     <a href="https://dribbble.com/shots/3277469-Harry-Ron-and-Hermione-Year-1">
