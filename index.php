@@ -72,58 +72,28 @@
                     <h2 class="project-title">Other Works</h2>
                 </div>
                 <div class="col-4">
-                    <a href="/projects/somawater">
-                        <div class="image-with-overlay" onmouseover="forceUnderline(this);" onmouseout="removeUnderline(this)">
-                            <img src="img/index/somawater.png">
-                            <div class="dark-black-overlay">View on Dribbble</div>
-                        </div>
-                    </a>
-                    <a href="https://dribbble.com/shots/3295214-Astronaut-and-the-Moon" class="other-works-title" onmouseover="forceOverlay(this);" onmouseout="removeOverlay(this)">Soma Water Landing Page Redesign</a>
+                    <img src="img/index/somawater.png">
+                    <a href="https://dribbble.com/shots/3295214-Astronaut-and-the-Moon" class="other-works-title" >Soma Water Landing Page Redesign</a>
                 </div>
                 <div class="col-4">
-                    <a href="https://bangbang.do/">
-                        <div class="image-with-overlay" onmouseover="forceUnderline(this);" onmouseout="removeUnderline(this)">
-                            <img src="img/index/bangbang.png">
-                            <div class="dark-black-overlay">View on !!BANGBANG</div>
-                        </div>
-                    </a>
-                    <a href="https://bangbang.do/" class="other-works-title" onmouseover="forceOverlay(this);" onmouseout="removeOverlay(this)">!!BANGBANG Homepage Redesign</a>
+                    <img src="img/index/bangbang.png">
+                    <a href="https://bangbang.do/" class="other-works-title" >!!BANGBANG Homepage Redesign</a>
                 </div>
                 <div class="col-4">
-                    <a href="https://progressly.com/">
-                        <div class="image-with-overlay" onmouseover="forceUnderline(this);" onmouseout="removeUnderline(this)">
-                            <img src="img/index/dashboard.png">
-                            <div class="dark-black-overlay">View on Progressly</div>
-                        </div>
-                    </a>
-                    <a href="https://progressly.com/" class="other-works-title" onmouseover="forceOverlay(this);" onmouseout="removeOverlay(this)">Dashboard Analytics</a>
+                    <img src="img/index/dashboard.png">
+                    <a href="https://progressly.com/" class="other-works-title" >Dashboard Analytics</a>
                 </div>
                 <div class="col-4">
-                    <a href="https://dribbble.com/shots/3277469-Harry-Ron-and-Hermione-Year-1">
-                        <div class="image-with-overlay" onmouseover="forceUnderline(this);" onmouseout="removeUnderline(this)">
-                        <img src="img/index/guestaccess.png">
-                            <div class="dark-black-overlay">View on Dribbble</div>
-                        </div>
-                    </a>
-                    <a href="https://dribbble.com/shots/3277469-Harry-Ron-and-Hermione-Year-1" class="other-works-title" onmouseover="forceOverlay(this);" onmouseout="removeOverlay(this)">Guest Access Flow</a>
+                    <img src="img/index/guestaccess.png">
+                    <a href="https://dribbble.com/shots/3277469-Harry-Ron-and-Hermione-Year-1" class="other-works-title" >Guest Access Flow</a>
                 </div>
                 <div class="col-4">
-                    <a href="https://progressly.com/">
-                        <div class="image-with-overlay" onmouseover="forceUnderline(this);" onmouseout="removeUnderline(this)">
-                            <img src="img/index/marketing.png">
-                            <div class="dark-black-overlay">View on Progressly</div>
-                        </div>
-                    </a>
-                    <a href="https://progressly.com/" class="other-works-title" onmouseover="forceOverlay(this);" onmouseout="removeOverlay(this)">Progressly Marketing Pages</a>
+                    <img src="img/index/marketing.png">
+                    <a href="https://progressly.com/" class="other-works-title" >Progressly Marketing Pages</a>
                 </div>
                 <div class="col-4">
-                    <a href="https://progressly.com/">
-                        <div class="image-with-overlay" onmouseover="forceUnderline(this);" onmouseout="removeUnderline(this)">
-                            <img src="img/index/engineering.png">
-                            <div class="dark-black-overlay">View on Progressly</div>
-                        </div>
-                    </a>
-                    <a href="https://progressly.com/"class="other-works-title" onmouseover="forceOverlay(this);" onmouseout="removeOverlay(this)">Engineering Landing Page</a>
+                    <img src="img/index/engineering.png">
+                    <a href="https://progressly.com/"class="other-works-title" >Engineering Landing Page</a>
                 </div>
                 <div class="col-2"></div>
                 <div class="col-8">
@@ -146,20 +116,6 @@
             require_once('php/scripts.php'); 
         ?>
         <script type="text/javascript">
-            function forceOverlay(el) {
-                el.previousElementSibling.lastElementChild.lastElementChild.style.opacity = 1;
-            }
-            
-            function removeOverlay(el) {
-                el.previousElementSibling.lastElementChild.lastElementChild.style.opacity = "";
-            }
-            function forceUnderline(el) {
-                el.parentElement.nextElementSibling.style.textDecoration = "underline";
-            }
-            
-            function removeUnderline(el) {
-                el.parentElement.nextElementSibling.style.textDecoration = "";
-            }
             smoothScroll.init()
         </script>
     </body>

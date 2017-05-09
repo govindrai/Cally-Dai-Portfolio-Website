@@ -507,6 +507,15 @@ section:nth-of-type(4) {
     width: 100%;
 }
 
+#other-works .col-4 {
+    overflow: hidden;
+}
+
+#other-works img:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.05);
+}
+
 #other-works .project-title {
     margin: 0 0 45px 0;
 }
