@@ -433,6 +433,17 @@ section:nth-of-type(4) {
     transition: background-color .2s;
 }
 
+.coming-soon {
+    margin: 30px auto 0;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: 1.5px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .centered-button {
     margin: 30px auto;
 }
@@ -489,6 +500,11 @@ section:nth-of-type(4) {
 
 #other-works {
     font-family: "Open Sans", sans-serif;
+}
+
+#other-works img {
+    height: 100%;
+    width: 100%;
 }
 
 #other-works .project-title {

@@ -57,12 +57,12 @@
         <section id="soma-water" class="projects">
             <div class="container">
                 <div class="col-5">
-                    <img class="main-project-image" width="477" height="405" src="img/index/soma-img.png" alt="soma water product design">
+                    <img class="main-project-image" width="445" height="365" src="img/index/plyarchitecture-img.png" alt="progressly architecture product design">
                 </div>
                 <div class="col-7">
-                    <h2 class="project-title">Soma Water</h2>
-                    <p class="project-description">To drive understanding and conversion for their new offer, I worked closely with growth marketers to redesign Soma Water’s promotional webpage.</p>
-                    <a href="projects/somawater" class="button">View Case Study</a>
+                    <h2 class="project-title">Progressly</h2>
+                    <p class="project-description">Prompted to introduce new feature sets to Progressly's enterprise software, I led a team to redesign the core product architecture.</p>
+                    <div class="coming-soon">Coming Soon</div>
                 </div>
             </div>
         </section>
@@ -74,29 +74,38 @@
                 <div class="col-4">
                     <a href="/projects/somawater">
                         <div class="image-with-overlay" onmouseover="forceUnderline(this);" onmouseout="removeUnderline(this)">
-                            <img width="350px" height="300px" src="img/index/somawater.png">
+                            <img src="img/index/somawater.png">
                             <div class="dark-black-overlay">View on Dribbble</div>
                         </div>
                     </a>
-                    <a href="https://dribbble.com/shots/3295214-Astronaut-and-the-Moon" class="other-works-title" onmouseover="forceOverlay(this);" onmouseout="removeOverlay(this)">Astronaut and the Moon</a>
+                    <a href="https://dribbble.com/shots/3295214-Astronaut-and-the-Moon" class="other-works-title" onmouseover="forceOverlay(this);" onmouseout="removeOverlay(this)">Soma Water Landing Page Redesign</a>
                 </div>
                 <div class="col-4">
                     <a href="https://bangbang.do/">
                         <div class="image-with-overlay" onmouseover="forceUnderline(this);" onmouseout="removeUnderline(this)">
-                            <img src="img/index/bangbang-homepage.png">
-                            <div class="dark-black-overlay">View on !!BANG BANG</div>
+                            <img src="img/index/bangbang.png">
+                            <div class="dark-black-overlay">View on !!BANGBANG</div>
                         </div>
                     </a>
-                    <a href="https://bangbang.do/" class="other-works-title" onmouseover="forceOverlay(this);" onmouseout="removeOverlay(this)">!!BANG BANG Homepage Redesign</a>
+                    <a href="https://bangbang.do/" class="other-works-title" onmouseover="forceOverlay(this);" onmouseout="removeOverlay(this)">!!BANGBANG Homepage Redesign</a>
                 </div>
                 <div class="col-4">
                     <a href="https://progressly.com/">
                         <div class="image-with-overlay" onmouseover="forceUnderline(this);" onmouseout="removeUnderline(this)">
-                            <img src="img/index/dashboard-analytics.png">
+                            <img src="img/index/dashboard.png">
                             <div class="dark-black-overlay">View on Progressly</div>
                         </div>
                     </a>
                     <a href="https://progressly.com/" class="other-works-title" onmouseover="forceOverlay(this);" onmouseout="removeOverlay(this)">Dashboard Analytics</a>
+                </div>
+                <div class="col-4">
+                    <a href="https://dribbble.com/shots/3277469-Harry-Ron-and-Hermione-Year-1">
+                        <div class="image-with-overlay" onmouseover="forceUnderline(this);" onmouseout="removeUnderline(this)">
+                        <img src="img/index/guestaccess.png">
+                            <div class="dark-black-overlay">View on Dribbble</div>
+                        </div>
+                    </a>
+                    <a href="https://dribbble.com/shots/3277469-Harry-Ron-and-Hermione-Year-1" class="other-works-title" onmouseover="forceOverlay(this);" onmouseout="removeOverlay(this)">Guest Access Flow</a>
                 </div>
                 <div class="col-4">
                     <a href="https://progressly.com/">
@@ -105,25 +114,16 @@
                             <div class="dark-black-overlay">View on Progressly</div>
                         </div>
                     </a>
-                    <a href="https://progressly.com/" class="other-works-title" onmouseover="forceOverlay(this);" onmouseout="removeOverlay(this)">Progressly Marketing Page Redesign</a>
+                    <a href="https://progressly.com/" class="other-works-title" onmouseover="forceOverlay(this);" onmouseout="removeOverlay(this)">Progressly Marketing Pages</a>
                 </div>
                 <div class="col-4">
                     <a href="https://progressly.com/">
                         <div class="image-with-overlay" onmouseover="forceUnderline(this);" onmouseout="removeUnderline(this)">
-                            <img src="img/index/engineering-page.png">
+                            <img src="img/index/engineering.png">
                             <div class="dark-black-overlay">View on Progressly</div>
                         </div>
                     </a>
                     <a href="https://progressly.com/"class="other-works-title" onmouseover="forceOverlay(this);" onmouseout="removeOverlay(this)">Engineering Landing Page</a>
-                </div>
-                <div class="col-4">
-                    <a href="https://dribbble.com/shots/3277469-Harry-Ron-and-Hermione-Year-1">
-                        <div class="image-with-overlay" onmouseover="forceUnderline(this);" onmouseout="removeUnderline(this)">
-                        <img src="img/index/harry-potter.png">
-                            <div class="dark-black-overlay">View on Dribbble</div>
-                        </div>
-                    </a>
-                    <a href="https://dribbble.com/shots/3277469-Harry-Ron-and-Hermione-Year-1" class="other-works-title" onmouseover="forceOverlay(this);" onmouseout="removeOverlay(this)">Harry, Ron and Hermonie, Year 1</a>
                 </div>
                 <div class="col-2"></div>
                 <div class="col-8">
