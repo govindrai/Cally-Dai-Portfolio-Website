@@ -104,8 +104,6 @@
         </section>
         
         <section id='other-works-modals' class="col-12">
-            
-            
             <div id="plyengineering-modal" class="modal col-10">
                 <div class="col-10 modal-content">
                     <div id="x-button">&#x2573;</div>

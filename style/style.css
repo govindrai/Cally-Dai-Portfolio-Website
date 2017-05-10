@@ -684,6 +684,11 @@ section:nth-of-type(4) {
     }
 }
 
+.modal {
+    max-height: 90%;
+    overflow: hidden;
+}
+
 .modal div.col-10 {
     background-color: white;
     display: flex;
@@ -691,6 +696,12 @@ section:nth-of-type(4) {
     padding: 60px;
     align-items: center;
     border-radius: 8px;
+}
+
+.modal-content {
+    position: relative;
+    font-weight: bold;
+    overflow-y: auto;
 }
 
 .modal p {
@@ -703,6 +714,7 @@ section:nth-of-type(4) {
 }
 
 .modal-hero-image {
+    width: 100%;
     max-width: 540px;
     position: relative;
     z-index: 5;
@@ -710,6 +722,7 @@ section:nth-of-type(4) {
 }
 
 .gif-container {
+    width: 100%;
     max-width: 540px;
     position: relative;
 }
@@ -724,6 +737,13 @@ section:nth-of-type(4) {
 
 .modal-heading {
     margin-bottom: 15px;
+}
+
+#x-button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
 }
 
 #feedback {
@@ -900,17 +920,6 @@ textarea {
 
 .show {
     display: flex;
-}
-
-#x-button {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-}
-
-.modal-content {
-    position: relative;
-    font-weight: bold;
 }
 
 
