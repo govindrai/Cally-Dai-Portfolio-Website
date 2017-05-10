@@ -72,27 +72,27 @@
                     <h2 class="project-title">Other Works</h2>
                 </div>
                 <div class="col-4">
-                    <div><img src="img/index/somawater.png"></div>
+                    <div><img class="other-works-image" src="img/index/somawater.png"></div>
                     <div class="other-works-title" >Soma Water Landing Page Redesign</div>
                 </div>
                 <div class="col-4">
-                    <div><img src="img/index/bangbang.png"></div>
+                    <div><img class="other-works-image" src="img/index/bangbang.png"></div>
                     <div class="other-works-title" >!!BANGBANG Homepage Redesign</div>
                 </div>
                 <div class="col-4">
-                    <div><img src="img/index/dashboard.png"></div>
+                    <div><img class="other-works-image" src="img/index/dashboard.png"></div>
                     <div class="other-works-title" >Dashboard Analytics</div>
                 </div>
                 <div class="col-4">
-                    <div><img src="img/index/guestaccess.png"></div>
+                    <div><img class="other-works-image" src="img/index/guestaccess.png"></div>
                     <div class="other-works-title" >Guest Access Flow</div>
                 </div>
                 <div class="col-4">
-                    <div><img src="img/index/marketing.png"></div>
+                    <div><img class="other-works-image" src="img/index/marketing.png"></div>
                     <div class="other-works-title" >Progressly Marketing Pages</div>
                 </div>
                 <div id="modal-4" class="col-4">
-                    <div><img src="img/index/engineering.png"></div>
+                    <div><img class="other-works-image" src="img/index/engineering.png"></div>
                     <div class="other-works-title" >Engineering Landing Page</div>
                 </div>
                 <div class="col-2"></div>
@@ -102,7 +102,10 @@
                 <div class="col-2"></div>
             </div>
         </section>
+        
         <section id='other-works-modals' class="col-12">
+            
+            
             <div id="plyengineering-modal" class="modal col-10">
                 <div class="col-10 modal-content">
                     <div id="x-button">&#x2573;</div>
@@ -115,7 +118,11 @@
                     <p>Progressly is a software company that provides solutions for process documentation and execution. To increase interest in open engineering posititons, I pioneered a landing page dedicated to demonstrate Progressly’s company and engineering culture. This directly increased the number of applications received for developer roles.</p>
                 </div>
             </div>
+            
+            
+            
         </section>
+        
         <section id="feedback">
             <div class="container">
                 <div class="col-12">
@@ -134,27 +141,37 @@
         <script type="text/javascript" src="scripts/index-overlays.js"></script>
         <script type="text/javascript">
             document.getElementById("other-works").addEventListener('click', function(e) {
-                console.log("SLKJFLSJF:LSJDF")
-                console.log(e)
-                console.log(e.target);
-                if (e.target.className == 'other-works-title') {
-                    var index = Array.from(document.querySelectorAll('.other-works-title')).indexOf(e.target)
-                    document.querySelectorAll('.modal')[index].style.display = "flex";
-                    document.getElementById("other-works-modals").style.display = "flex";
+                if (e.target.tagName == 'DIV' || e.target.tagName == 'IMG') {
+                    var index = Array.from(document.getElementsByClassName(e.target.className)).indexOf(e.target);
+                    
+                    var modalContent = document.querySelectorAll('.modal')[index]
+                    var modalSection = document.getElementById("other-works-modals")
+                    
+                    modalContent.style.display = "flex";
+                    modalSection.style.display = "flex";
+                    
+                    modalSection.classList.add('opacity1');
+                    modalContent.classList.add('move-up');
                 }
             });
             
-            document.getElementById("x-button").onclick = function() {
-                document.getElementById("other-works-modals").style.display = "none";
-                this.parentElement.parentElement.style.display = "none"
-            }
-            
-            // document.getElementById("#other-works-engineering").onclick = function () {
-            //     document.getElementById("plyengineering-modal").classList.add("show");
-            // };
-            // document.getElementById("#x-button").onclick = function () {
-            //     document.getElementById("plyengineering-modal").classList.remove("show");
-            // };
+            document.getElementById("x-button").onclick = function(e) {
+                var modalSection = document.getElementById("other-works-modals");
+                var modalContent = this.parentElement.parentElement;
+                
+                modalContent.classList.add("move-down");
+                modalSection.classList.add('opacity0');
+                
+                
+                setTimeout(function() {
+                    modalSection.style.display = "none";
+                    modalContent.style.display = "none";
+                    modalSection.classList.remove("opacity0", "opacity1");
+                    modalContent.classList.remove("move-down", "move-up");
+                }, 500)
+                
+
+            };
             
             smoothScroll.init();
         </script>

@@ -535,6 +535,8 @@ section:nth-of-type(4) {
     height: 100%;
     width: 100%;
     display: block;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
 }
 
 #other-works .col-4 div {
@@ -542,7 +544,6 @@ section:nth-of-type(4) {
 }
 
 #other-works img:hover {
-    transition-duration: 0.2s;
     transform: scale(1.1);
 }
 
@@ -602,8 +603,9 @@ section:nth-of-type(4) {
 /* Other Works Modals*/
 
 #other-works-modals {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.5);
     display: none;
+    opacity: 0;
     align-items: center;
     justify-content: center;
     position: fixed;
@@ -615,14 +617,77 @@ section:nth-of-type(4) {
 }
 
 .modal {
+    position: relative;
     display: none;
+    top: 150%;
     justify-content: center;
+    transition: all 0.7s ease-in;
+}
+
+.move-up {
+    animation-name: move-up;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+.opacity1 {
+    animation-name: modalOpacity1;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+.move-down {
+    animation-name: move-down;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+.opacity0 {
+    animation-name: modalOpacity0;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes modalOpacity1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes modalOpacity0 {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes move-up {
+    from {
+        top: 150%;
+    }
+    to {
+        top: 0;
+    }
+}
+
+@keyframes move-down {
+    from {
+        top: 0;
+    }
+    to {
+        top: 150%;
+    }
 }
 
 .modal div.col-10 {
+    background-color: white;
     display: flex;
     flex-direction: column;
-    background-color: white;
     padding: 60px;
     align-items: center;
     border-radius: 8px;
@@ -638,9 +703,10 @@ section:nth-of-type(4) {
 }
 
 .modal-hero-image {
-    width: 100%;
+    max-width: 540px;
     position: relative;
     z-index: 5;
+    cursor: pointer;
 }
 
 .gif-container {
