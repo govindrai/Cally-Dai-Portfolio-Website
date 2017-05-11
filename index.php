@@ -208,21 +208,34 @@
             });
             
             document.getElementById("other-works-modals").addEventListener("click", function(e) {
-                debugger;
-                var modalSection = document.getElementById("other-works-modals");
-                var modalContent = e.target.parentElement.parentElement;
-                
-                modalContent.classList.add("move-down");
-                modalSection.classList.add('opacity0');
-                
-                
-                setTimeout(function() {
-                    modalSection.style.display = "none";
-                    modalContent.style.display = "none";
-                    modalSection.classList.remove("opacity0", "opacity1");
-                    modalContent.classList.remove("move-down", "move-up");
-                }, 500);
+                if (e.target.id == "x-button") {
+                    var modalSection = document.getElementById("other-works-modals");
+                    var modalContent = e.target.parentElement.parentElement;
+                    
+                    modalContent.classList.add("move-down");
+                    modalSection.classList.add('opacity0');
+                    
+                    
+                    setTimeout(function() {
+                        modalSection.style.display = "none";
+                        modalContent.style.display = "none";
+                        modalSection.classList.remove("opacity0", "opacity1");
+                        modalContent.classList.remove("move-down", "move-up");
+                    }, 500);
+                }
             });
+            
+            document.getElementById("other-works").addEventListener("mouseover", function(e) {
+                if (e.target.className == "other-works-image") {
+                    e.target.parentElement.nextElementSibling.style.textDecoration = "underline";
+                }
+            })
+            
+            document.getElementById("other-works").addEventListener("mouseout", function(e) {
+                if (e.target.className == "other-works-image") {
+                    e.target.parentElement.nextElementSibling.style.textDecoration = "none";
+                }
+            })
             
             smoothScroll.init();
         </script>
