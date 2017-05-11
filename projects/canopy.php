@@ -1,12 +1,10 @@
-<html  lang="en">
-    <head>
-      <base href="https://mysql-raigovind93.c9users.io/Cally%20Dai/">
-      <title>Canopy Responsive Interactive Learning Platform</title>
-      <link rel="stylesheet" type="text/css" href="style/general.css">
-      <link rel="stylesheet" type="text/css" href="style/style.css">
-      <link rel="stylesheet" type="text/css" href="style/projects.css">
-    </head>
-    
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Canopy Responsive Interactive Learning Platform</title>
+  <?php require_once('../php/head.php') ?>
+  <link rel="stylesheet" type="text/css" href="style/projects.css">
+</head>  
     <body>
        <main-project id="project-hero">
          <div class="container">

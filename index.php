@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html  lang="en">
+<html lang="en">
     <head>
         <title>Cally Dai | Product Designer</title>
         <?php require_once('php/head.php') ?>

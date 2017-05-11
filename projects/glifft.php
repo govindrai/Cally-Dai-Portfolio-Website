@@ -301,10 +301,12 @@
         
         <main-project id="project-hero">
          <div class="container">
-                <div class="col-12">
-                  <H3><a class="pink-link" src="www.callydai.com">BACK TO PORTFOLIO</a></h3>
-                </div>
+            <div class="col-12">
+              <h3><a class="pink-link" src="www.callydai.com">BACK TO PORTFOLIO</a></h3>
+            </div>
           </div>
        </main-project>
+       
+       <?php require_once("../php/footer2.php") ?>
     </body>
 </html>
