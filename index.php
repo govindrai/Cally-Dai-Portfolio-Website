@@ -228,14 +228,18 @@
             document.getElementById("other-works").addEventListener("mouseover", function(e) {
                 if (e.target.className == "other-works-image") {
                     e.target.parentElement.nextElementSibling.style.textDecoration = "underline";
+                } else if (e.target.className == "other-works-title") {
+                    e.target.previousElementSibling.lastElementChild.style.transform = "scale(1.1)";
                 }
-            })
+            });
             
             document.getElementById("other-works").addEventListener("mouseout", function(e) {
                 if (e.target.className == "other-works-image") {
-                    e.target.parentElement.nextElementSibling.style.textDecoration = "none";
+                    e.target.parentElement.nextElementSibling.style.textDecoration = null;
+                } else if (e.target.className == "other-works-title") {
+                    e.target.previousElementSibling.lastElementChild.style.transform = null;
                 }
-            })
+            });
             
             smoothScroll.init();
         </script>
