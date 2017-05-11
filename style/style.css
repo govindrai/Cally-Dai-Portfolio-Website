@@ -1,7 +1,14 @@
 /* general styles */
 
+@import url('https://fonts.googleapis.com/css?family=Glegoo:400,700');
 * {
     box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 0 15px;
+    min-height: 1px;
 }
 
 .container {
@@ -27,12 +34,38 @@
 
 body {
     margin: 0;
-    font-family: 'Lora', serif;
+    font-family: 'Glegoo', serif;
+    font-size: 15px;
     color: #292e41;
 }
 
 h1 {
     font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    color: #292e41;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #292e41;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #292e41;
+    margin: 0px;
 }
 
 a {
@@ -57,6 +90,7 @@ nav a:last-child {
 p {
     margin-top: 0;
     margin-bottom: 30px;
+    line-height: 1.88em;
 }
 
 p:last-of-type {
@@ -78,12 +112,14 @@ main {
     line-height: 60px;
     letter-spacing: 3.3px;
     margin: 0;
+    color: #E4E8F7;
 }
 
 .hero-subtitle {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 3px;
+    color: #E4E8F7;
 }
 
 #ribbon {
@@ -428,6 +464,17 @@ section:nth-of-type(4) {
     transition: background-color .2s;
 }
 
+.coming-soon {
+    margin: 30px auto 0;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: 1.5px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .centered-button {
     margin: 30px auto;
 }
@@ -486,6 +533,22 @@ section:nth-of-type(4) {
     font-family: "Open Sans", sans-serif;
 }
 
+#other-works img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+#other-works .col-4 div {
+    overflow: hidden;
+}
+
+#other-works img:hover {
+    transform: scale(1.1);
+}
+
 #other-works .project-title {
     margin: 0 0 45px 0;
 }
@@ -500,6 +563,7 @@ section:nth-of-type(4) {
     text-transform: uppercase;
     margin: 15px 0 60px 0;
 }
+
 .other-works-title:hover {
     text-decoration: underline;
     cursor: pointer;
@@ -535,6 +599,153 @@ section:nth-of-type(4) {
 .gray-divider {
     height: 1px;
     background-color: #e4e8f7;
+}
+
+
+/* Other Works Modals*/
+
+#other-works-modals {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.modal {
+    position: relative;
+    display: none;
+    top: 150%;
+    justify-content: center;
+    transition: all 0.7s ease-in;
+}
+
+.move-up {
+    animation-name: move-up;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+.opacity1 {
+    animation-name: modalOpacity1;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+.move-down {
+    animation-name: move-down;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+.opacity0 {
+    animation-name: modalOpacity0;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes modalOpacity1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes modalOpacity0 {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes move-up {
+    from {
+        top: 150%;
+    }
+    to {
+        top: 0;
+    }
+}
+
+@keyframes move-down {
+    from {
+        top: 0;
+    }
+    to {
+        top: 150%;
+    }
+}
+
+.modal {
+    max-height: 90%;
+    overflow: hidden;
+}
+
+.modal div.col-10 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.modal-content {
+    position: relative;
+    font-weight: bold;
+    overflow-y: auto;
+}
+
+.modal p {
+    line-height: 1.88;
+}
+
+.modal-hero-image,
+.modal-logo {
+    margin-bottom: 30px;
+}
+
+.modal-hero-image {
+    width: 100%;
+    max-width: 540px;
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.gif-container {
+    width: 100%;
+    max-width: 540px;
+    position: relative;
+}
+
+.gif {
+    position: absolute;
+    top: 7%;
+    left: 11.4%;
+    z-index: 1;
+    max-width: 77%;
+}
+
+.modal-heading {
+    margin-bottom: 15px;
+}
+
+#x-button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
 }
 
 #feedback {
@@ -709,10 +920,8 @@ textarea {
     width: 100%;
 }
 
-[class*="col-"] {
-    float: left;
-    padding: 0 15px;
-    min-height: 1px;
+.show {
+    display: flex;
 }
 
 

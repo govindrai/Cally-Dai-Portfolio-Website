@@ -26,3 +26,4 @@
      Unfortunately your browser has disabled scripting. Please enable it in order to display this page.
   </noscript>
 <![endif]-->
+<script type="text/javascript" src="js/modernizr.js"></script>

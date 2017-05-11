@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="918px" height="43px" viewBox="0 0 918 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>canopy/design-process</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="60" cy="38" r="8"></circle>
+        <circle id="path-2" cx="264" cy="38" r="8"></circle>
+        <circle id="path-3" cx="701" cy="38" r="8"></circle>
+        <circle id="path-4" cx="467" cy="38" r="8"></circle>
+        <circle id="path-5" cx="899" cy="38" r="8"></circle>
+    </defs>
+    <g id="Case-Studies" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Canopy-Case-Study" transform="translate(-181.000000, -1271.000000)">
+            <g id="Summary" transform="translate(0.000000, 720.000000)">
+                <g id="canopy/design-process" transform="translate(180.000000, 548.000000)">
+                    <rect id="Rectangle-2" fill="#6BCD83" x="64" y="37" width="836" height="2"></rect>
+                    <g id="Oval-2-Copy-5">
+                        <use fill="#EBF7F0" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <circle stroke="#6BCD83" stroke-width="2" cx="60" cy="38" r="7"></circle>
+                    </g>
+                    <g id="Oval-2-Copy-10">
+                        <use fill="#EBF7F0" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <circle stroke="#6BCD83" stroke-width="2" cx="264" cy="38" r="7"></circle>
+                    </g>
+                    <g id="Oval-2-Copy-8">
+                        <use fill="#EBF7F0" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <circle stroke="#6BCD83" stroke-width="2" cx="701" cy="38" r="7"></circle>
+                    </g>
+                    <g id="Oval-2-Copy-11">
+                        <use fill="#EBF7F0" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <circle stroke="#6BCD83" stroke-width="2" cx="467" cy="38" r="7"></circle>
+                    </g>
+                    <g id="Oval-2-Copy-9">
+                        <use fill="#EBF7F0" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <circle stroke="#6BCD83" stroke-width="2" cx="899" cy="38" r="7"></circle>
+                    </g>
+                    <g id="Group-2" font-size="11" font-family="OpenSans-Semibold, Open Sans" line-spacing="15" fill="#8A8D99" font-weight="500">
+                        <text id="RESEARCH-&amp;-VALIDATE">
+                            <tspan x="0" y="12">RESEARCH &amp; VALIDATE</tspan>
+                        </text>
+                        <text id="IDEATE">
+                            <tspan x="245" y="12">IDEATE</tspan>
+                        </text>
+                        <text id="WIREFRAME-&amp;-REVIEW">
+                            <tspan x="408" y="12">WIREFRAME &amp; REVIEW</tspan>
+                        </text>
+                        <text id="PROTOTYPE-&amp;-TEST">
+                            <tspan x="650" y="12">PROTOTYPE &amp; TEST</tspan>
+                        </text>
+                        <text id="ITERATE">
+                            <tspan x="877" y="12">ITERATE</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

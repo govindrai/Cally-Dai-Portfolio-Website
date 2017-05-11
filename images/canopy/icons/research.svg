@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/research</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 0.003894778 18.5 5.5 24 21 24 21 0"></polygon>
+    </defs>
+    <g id="Case-Studies" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Canopy-Case-Study" transform="translate(-180.000000, -1957.000000)">
+            <g id="Research" transform="translate(85.000000, 1954.000000)">
+                <g id="Research-Title">
+                    <g id="icon/research" transform="translate(95.000000, 3.000000)">
+                        <g>
+                            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                            <g id="shapes">
+                                <g id="Path-2">
+                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                    <path stroke="#292E41" stroke-width="1.5" d="M0.750157913,0.75 L20.25,0.75 L20.25,23.25 L5.8108158,23.25 L0.753829411,18.18943 L0.750157913,0.75 Z"></path>
+                                </g>
+                                <path d="M1.81066017,17.25 L6.75,17.25 L6.75,22.1893398 L1.81066017,17.25 Z" id="Path-3" stroke="#292E41" stroke-width="1.5"></path>
+                                <path d="M4.50445622,5.75078103 L16.5,5.74921897" id="Path-4" stroke="#292E41" stroke-width="1.5"></path>
+                                <path d="M4.50445622,10.750781 L16.5,10.749219" id="Path-4-Copy" stroke="#292E41" stroke-width="1.5"></path>
+                                <polyline id="Path-5" stroke="#5BC876" stroke-width="1.5" points="10.5 15 15 19.5 22.5 9"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
