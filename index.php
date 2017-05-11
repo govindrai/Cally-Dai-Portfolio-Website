@@ -102,8 +102,66 @@
                 <div class="col-2"></div>
             </div>
         </section>
-        
         <section id='other-works-modals' class="col-12">
+            <div id="somawater-modal" class="modal col-10">
+                <div class="col-10 modal-content">
+                    <div id="x-button">&#x2573;</div>
+                    <div class="gif-container">
+                        <img class="modal-hero-image" src="img/index/macbook.png"></img>
+                        <img class="gif" src="img/index/somawater.gif"/>
+                    </div>
+                    <img class="modal-logo" src="img/index/somalogo.svg"/>
+                    <h3 class="modal-heading">Landing Page Redesign</h3>
+                    <p>Soma Water designs water filters and beautifully aesthetic vessels. Each purchase supports water-related charities with option of bi-monthly filter replacement subscriptions. They were experiencing a high drop off rate for their promotion and a low conversion rate of email subscribers. My team and I aim to increase comprehension and increase subscription visibility.</p>
+                </div>
+            </div>
+            <div id="bangbang-modal" class="modal col-10">
+                <div class="col-10 modal-content">
+                    <div id="x-button">&#x2573;</div>
+                    <div class="gif-container">
+                        <img class="modal-hero-image" src="img/index/iphone.png"></img>
+                        <img class="gif" src="img/index/bangbangmobile.gif"/>
+                    </div>
+                    <img class="modal-logo" src="img/index/bangbanglogo.svg"/>
+                    <h3 class="modal-heading">Homepage Redesign</h3>
+                    <p>!!Bangbang is a social platform that urges people to take action. They needed a new dynamic homepage that gave a live stream of activites for people you follow. I also built out a new initiative flow for the influencers of the platform.</p>
+                </div>
+            </div>
+            <div id="dashboard-modal" class="modal col-10">
+                <div class="col-10 modal-content">
+                    <div id="x-button">&#x2573;</div>
+                    <div class="gif-container">
+                        <img class="modal-hero-image" src="img/index/dashboardproject.png"></img>
+                    </div>
+                    <img class="modal-logo" src="img/index/progresslylogo.svg"/>
+                    <h3 class="modal-heading">Dashboard Analytics</h3>
+                    <p>Progressly is a software company that provides solutions for process documentation and execution. As a Hack Day competition piece, I worked as the lead designer in a group with a customer strategy expert and full-stack engineer to introduce execution-level insights for users to gauge the health of their business processes. The feature launched the week after to customers and remains as something they use every single day.</p>
+                </div>
+            </div>
+            <div id="guestaccess-modal" class="modal col-10">
+                <div class="col-10 modal-content">
+                    <div id="x-button">&#x2573;</div>
+                    <div class="gif-container">
+                        <img class="modal-hero-image" src="img/index/macbook.png"></img>
+                        <img class="gif" src="img/index/guestaccess.gif"/>
+                    </div>
+                    <img class="modal-logo" src="img/index/progresslylogo.svg"/>
+                    <h3 class="modal-heading">Guest Access Flow</h3>
+                    <p>Progressly is a software company that provides solutions for process documentation and execution. I designed and prototyped the flow for inviting outside guests to a process execution. The prototype was tested on potential customer leads. Upon their approval, the feature was launched, converting those leads to full-fledged platform users.</p>
+                </div>
+            </div>
+            <div id="marketing-modal" class="modal col-10">
+                <div class="col-10 modal-content">
+                    <div id="x-button">&#x2573;</div>
+                    <div class="gif-container">
+                        <img class="modal-hero-image" src="img/index/macbook.png"></img>
+                        <img class="gif" src="img/index/marketing.gif"/>
+                    </div>
+                    <img class="modal-logo" src="img/index/progresslylogo.svg"/>
+                    <h3 class="modal-heading">Marketing Pages Redesign</h3>
+                    <p>Progressly is a software company that provides solutions for process documentation and execution. I worked with the Head of Marketing and the Busienss Operations Lead to redesign Progressly’s homepage and product page to garner new customer leads and increase understanding of the product.</p>
+                </div>
+            </div>
             <div id="plyengineering-modal" class="modal col-10">
                 <div class="col-10 modal-content">
                     <div id="x-button">&#x2573;</div>
@@ -116,11 +174,7 @@
                     <p>Progressly is a software company that provides solutions for process documentation and execution. To increase interest in open engineering posititons, I pioneered a landing page dedicated to demonstrate Progressly’s company and engineering culture. This directly increased the number of applications received for developer roles.</p>
                 </div>
             </div>
-            
-            
-            
         </section>
-        
         <section id="feedback">
             <div class="container">
                 <div class="col-12">
@@ -153,9 +207,10 @@
                 }
             });
             
-            document.getElementById("x-button").onclick = function(e) {
+            document.getElementById("other-works-modals").addEventListener("click", function(e) {
+                debugger;
                 var modalSection = document.getElementById("other-works-modals");
-                var modalContent = this.parentElement.parentElement;
+                var modalContent = e.target.parentElement.parentElement;
                 
                 modalContent.classList.add("move-down");
                 modalSection.classList.add('opacity0');
@@ -166,10 +221,8 @@
                     modalContent.style.display = "none";
                     modalSection.classList.remove("opacity0", "opacity1");
                     modalContent.classList.remove("move-down", "move-up");
-                }, 500)
-                
-
-            };
+                }, 500);
+            });
             
             smoothScroll.init();
         </script>
