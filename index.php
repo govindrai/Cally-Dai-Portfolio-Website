@@ -194,9 +194,10 @@
         <script type="text/javascript">
             document.getElementById("other-works").addEventListener('click', function(e) {
                 if (e.target.tagName == 'DIV' || e.target.tagName == 'IMG') {
-                    var index = Array.from(document.getElementsByClassName(e.target.className)).indexOf(e.target);
+                    /* global modalIndex */
+                    modalIndex = Array.from(document.getElementsByClassName(e.target.className)).indexOf(e.target);
                     
-                    var modalContent = document.querySelectorAll('.modal')[index]
+                    var modalContent = document.querySelectorAll('.modal')[modalIndex]
                     var modalSection = document.getElementById("other-works-modals")
                     
                     modalContent.style.display = "flex";
@@ -208,13 +209,18 @@
             });
             
             document.getElementById("other-works-modals").addEventListener("click", function(e) {
-                if (e.target.id == "x-button") {
+                if (e.target.id == "x-button" || e.target.id == "other-works-modals" || e.target.className ==  "modal col-10 move-up") {
                     var modalSection = document.getElementById("other-works-modals");
-                    var modalContent = e.target.parentElement.parentElement;
+                    var modalContent;
+                 
+                    if (e.target.id == "x-button") {
+                        modalContent = e.target.parentElement.parentElement;
+                    } else {
+                        modalContent = document.querySelectorAll('.modal')[modalIndex];
+                    }
                     
                     modalContent.classList.add("move-down");
                     modalSection.classList.add('opacity0');
-                    
                     
                     setTimeout(function() {
                         modalSection.style.display = "none";
