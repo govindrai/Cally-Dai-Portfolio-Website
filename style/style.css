@@ -535,7 +535,7 @@ section:nth-of-type(4) {
     height: 100%;
     width: 100%;
     display: block;
-    transition: all 1s ease-in-out;
+    transition: all .5s ease-in-out;
     cursor: pointer;
 }
 
@@ -626,7 +626,7 @@ section:nth-of-type(4) {
 
 .move-up {
     animation-name: move-up;
-    animation-duration: .5s;
+    animation-duration: .3s;
     animation-fill-mode: forwards;
 }
 

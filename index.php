@@ -227,7 +227,7 @@
                         modalContent.style.display = "none";
                         modalSection.classList.remove("opacity0", "opacity1");
                         modalContent.classList.remove("move-down", "move-up");
-                    }, 500);
+                    }, 400);
                 }
             });
             
