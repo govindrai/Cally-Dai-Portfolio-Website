@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Canopy Responsive Interactive Learning Platform</title>
-  <?php require_once('../php/head.php') ?>
-  <link rel="stylesheet" type="text/css" href="style/projects.css">
-</head>  
+  <head>
+    <title>Canopy Responsive Interactive Learning Platform</title>
+    <?php require_once('../php/head.php') ?>
+    <link rel="stylesheet" type="text/css" href="style/projects.css">
+  </head>  
     <body>
+      <?php require_once('../php/navigation.php'); ?>
        <main-project id="project-hero">
          <div class="container">
                <div class="col-1"></div>
                 <div class="col-10">
                   <h1>Canopy Responsive Interactive Learning Platform</h1>
-                  <img width="730px" height="400px" src="images/canopy/main-image.png">
+                  <img height="400px" src="img/index/canopy-img.png">
                 </div>
                 <div class="col-1"></div>
           </div>
@@ -282,4 +283,6 @@
           </div>
        </main-project>
     </body>
+    
+    <?php require_once("../php/footer2.php") ?>
 </html>
