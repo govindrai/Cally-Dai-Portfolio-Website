@@ -90,6 +90,7 @@ nav a:last-child {
 p {
     margin-top: 0;
     margin-bottom: 30px;
+    line-height: 1.88em;
 }
 
 p:last-of-type {

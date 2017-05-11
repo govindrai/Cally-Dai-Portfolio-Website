@@ -190,7 +190,6 @@
             require_once('php/scripts.php'); 
         ?>
         
-        <script type="text/javascript" src="scripts/index-overlays.js"></script>
         <script type="text/javascript">
             document.getElementById("other-works").addEventListener('click', function(e) {
                 if (e.target.tagName == 'DIV' || e.target.tagName == 'IMG') {
