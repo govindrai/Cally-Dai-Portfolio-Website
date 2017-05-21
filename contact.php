@@ -19,13 +19,13 @@
                 <div class="col-2"></div>
                 <div class="col-3"></div>
                 <div class="col-6">
-                    <form id="contact" action="" method="post" onsubmit="return false;">
+                    <form id="contact" action="php/mailer.php" method="post">
                         <span>Email Address</span>
-                        <input type="email" name="email" placeholder="Email Address" onkeydown="showLabel(this);" required/>
+                        <input id="email" type="email" name="email" placeholder="Email Address" onkeydown="showLabel(this);" required/>
                         <span>Subject Title</span>
-                        <input type="text" name="subject" placeholder="Subject Title" onkeydown="showLabel(this);" required>
+                        <input id="subject" type="text" name="subject" placeholder="Subject Title" onkeydown="showLabel(this);" required>
                         <span>Message</span>
-                        <textarea onkeydown="showLabel(this);" placeholder="Write your message here..."></textarea>
+                        <textarea id="message" onkeydown="showLabel(this);" placeholder="Write your message here..."></textarea>
                         <button class="button contact-button centered-button" type="submit">Get in Touch</a></button>
                     </form>
                     <div id="spacer60"></div>
@@ -39,6 +39,30 @@
                 element.previousElementSibling.style.opacity = '1';
                 element.previousElementSibling.style.transform = 'translateY(0)'
             }
+            
+            document.getElementById('contact').addEventListener("submit", function(e) {
+                    e.preventDefault();
+                    var form = this;
+                    var message = document.getElementById("message").value;
+                    var subject = document.getElementById("subject").value;
+                    var email = document.getElementById("email").value;
+                    var xhttp = new XMLHttpRequest();
+                    
+                    xhttp.onreadystatechange = function() {
+                        if (this.readyState == 4 && this.status == 200) {
+                          form.insertAdjacentHTML('beforeBegin', "<p>Thanks for your message! I will get back to you in 24 hours!</p>");
+                          form.reset();
+                        } else {
+                            form.insertAdjacentHTML('beforeBegin', "<p>Sorry but you need to fill in all the fields!</p>");
+                        }
+                    };
+                    
+                    xhttp.open(form.method, form.action, true);
+                    xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                    debugger
+                    var data = "message=" + message + "&subject=" + subject + "&email=" + email
+                    xhttp.send(data);
+                });
         </script>
     </body>
 </html>
