@@ -1,4 +1,5 @@
-<base href="<?php echo getenv("base_url"); ?>">
+<?php require_once("./environment/secrets.php"); ?>
+<base href="<?php echo $_ENV["base_url"]; ?>">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style/normalize.css" type="text/css" />

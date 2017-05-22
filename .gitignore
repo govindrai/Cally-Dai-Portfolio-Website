@@ -3,3 +3,4 @@ vendor/
 *.log
 composer.lock
 composer.phar
+environment/secrets.php
