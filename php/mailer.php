@@ -6,7 +6,7 @@
     
         $from = new SendGrid\Email("", $_POST['email']);
         $subject = $_POST["subject"];
-        $to = new SendGrid\Email("Cally Dai", getenv("cally_email"));
+        $to = new SendGrid\Email("Cally Dai", $_ENV["cally_email"]);
         $content = new SendGrid\Content("text/plain", $_POST["message"]);
         $mail = new SendGrid\Mail($from, $subject, $to, $content);
         $apiKey = $_ENV["sendgrid_api_key"];
