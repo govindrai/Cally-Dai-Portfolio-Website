@@ -840,6 +840,25 @@ textarea {
     transition: all .2s;
 }
 
+#success-message {
+    display: none;
+    margin-top: 60px;
+}
+
+#success-message-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 1.88;
+    letter-spacing: 1.5px;
+    color: #292e41;
+}
+
+#checkmark {
+    vertical-align: text-bottom;
+    width: 36px;
+    margin-right: 10px;
+}
+
 
 /* placeholder customizations */
 
