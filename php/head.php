@@ -1,4 +1,4 @@
-<?php require_once("../environment/secrets.php"); ?>
+<?php require_once(dirname(__FILE__) . "/../environment/secrets.php"); ?>
 <base href="<?php echo $_ENV["base_url"]; ?>">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
