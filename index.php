@@ -37,7 +37,7 @@
                 <div class="col-7">
                     <h2 class="project-title">Glifft</h2>
                     <p class="project-description">I designed the MVP for a new mobile application from the ground up, focusing on creating a seamless user experience and establishing accurate brand aesthetic.</p>
-                    <a href="projects/glifft" class="button">View Case Study</a>
+                    <a href="projects/glifft.php" class="button">View Case Study</a>
                 </div>
                 <div class="col-2"></div>
             </div>
@@ -50,7 +50,7 @@
                 <div class="col-7">
                     <h2 class="project-title">Canopy</h2>
                     <p class="project-description">Using user research and user testing, I established content hierarchy and a style guide for Canopy’s responsive web learning platform.</p>
-                    <a href="projects/canopy" class="button">View Case Study</a>
+                    <a href="projects/canopy.php" class="button">View Case Study</a>
                 </div>
             </div>
         </section>
