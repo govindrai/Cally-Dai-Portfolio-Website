@@ -1,6 +1,6 @@
 <?php
-    require './../vendor/autoload.php';
-    require '../environment/secrets.php';
+    require_once(__DIR__ . '/../vendor/autoload.php');
+    require_once(__DIR__ . '/../environment/secrets.php');
     
     if (array_key_exists('email', $_POST) && array_key_exists('message', $_POST) && array_key_exists('subject', $_POST)) {
     

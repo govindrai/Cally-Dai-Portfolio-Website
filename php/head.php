@@ -1,4 +1,4 @@
-<?php require_once(dirname(__FILE__) . "/../environment/secrets.php"); ?>
+<?php require_once(__DIR__ . "/../environment/secrets.php"); ?>
 <base href="<?php echo $_ENV["base_url"]; ?>">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora%7COpen+Sans:300i,400,400i,700">
 <link rel="shortcut-icon" type="image/svg" href="img/general/favicon.svg"/>
 
-<?php require_once('favicon.php'); ?>
+<?php require_once(__DIR__ . '/favicon.php'); ?>
 
 <!--[if lt IE 9]>
   <script>

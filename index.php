@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Cally Dai | Product Designer</title>
-        <?php require_once('php/head.php') ?>
+        <?php require_once('php/head.php'); ?>
     </head>
     <body>
         <?php require_once('php/navigation.php'); ?>
