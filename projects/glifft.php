@@ -2,11 +2,11 @@
 <html>
 <head>
   <title>Glifft Mobile App MVP</title>
-  <?php require_once('../php/head.php') ?>
+  <?php require_once(__DIR__ . '/../php/head.php') ?>
   <link rel="stylesheet" type="text/css" href="style/projects.css">
 </head>
 <body>
-  <?php require_once('../php/navigation.php'); ?>
+  <?php require_once(__DIR__ . '/../php/navigation.php'); ?>
     <body>
        <main-project id="project-hero">
          <div class="container">
@@ -307,6 +307,6 @@
           </div>
        </main-project>
        
-       <?php require_once("../php/footer2.php") ?>
+       <?php require_once(__DIR__ . "/../php/footer2.php") ?>
     </body>
 </html>

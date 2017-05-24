@@ -2,11 +2,11 @@
 <html>
   <head>
     <title>Canopy Responsive Interactive Learning Platform</title>
-    <?php require_once('../php/head.php') ?>
+    <?php require_once(__DIR__ . '/../php/head.php') ?>
     <link rel="stylesheet" type="text/css" href="style/projects.css">
   </head>  
     <body>
-      <?php require_once('../php/navigation.php'); ?>
+      <?php require_once(__DIR__ . '/../php/navigation.php'); ?>
        <main-project id="project-hero">
          <div class="container">
                <div class="col-1"></div>
@@ -284,5 +284,5 @@
        </main-project>
     </body>
     
-    <?php require_once("../php/footer2.php") ?>
+    <?php require_once(__DIR__ . "../php/footer2.php") ?>
 </html>
