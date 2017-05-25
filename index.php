@@ -35,7 +35,7 @@
                     <img class="main-project-image" width="452" height="405" src="img/index/glifft-img.png" alt="glifft product design">
                 </div>
                 <div class="col-7">
-                    <h2 class="project-title">Glifft</h2>
+                    <h2 style="text-align: left" class="project-title">Glifft</h2>
                     <p class="project-description">I designed the MVP for a new mobile application from the ground up, focusing on creating a seamless user experience and establishing accurate brand aesthetic.</p>
                     <a href="projects/glifft.php" class="button">View Case Study</a>
                 </div>
@@ -48,7 +48,7 @@
                     <img class="main-project-image" width="495" height="405" src="img/index/canopy-img.png" alt="canopy product design">
                 </div>
                 <div class="col-7">
-                    <h2 class="project-title">Canopy</h2>
+                    <h2 style="text-align: left" class="project-title">Canopy</h2>
                     <p class="project-description">Using user research and user testing, I established content hierarchy and a style guide for Canopy’s responsive web learning platform.</p>
                     <a href="projects/canopy.php" class="button">View Case Study</a>
                 </div>
@@ -60,7 +60,7 @@
                     <img class="main-project-image" width="445" height="365" src="img/index/plyarchitecture-img.png" alt="progressly architecture product design">
                 </div>
                 <div class="col-7">
-                    <h2 class="project-title">Progressly</h2>
+                    <h2 style="text-align: left" class="project-title">Progressly</h2>
                     <p class="project-description">Prompted to introduce new feature sets to Progressly's enterprise software, I led a team to redesign the core product architecture.</p>
                     <div class="coming-soon">Coming Soon</div>
                 </div>
@@ -119,8 +119,8 @@
                 <div class="col-10 modal-content">
                     <div id="x-button">&#x2573;</div>
                     <div class="gif-container">
-                        <img class="modal-hero-image" src="img/index/iphone.png"></img>
-                        <img class="gif" src="img/index/bangbangmobile.gif"/>
+                        <img class="modal-hero-image-iphone" height="420px" src="img/index/iphone.png"></img>
+                        <img class="iphonegif" width="188.5px" src="img/index/bangbangmobile.gif"/>
                     </div>
                     <img class="modal-logo" src="img/index/bangbanglogo.svg"/>
                     <h3 class="modal-heading">Homepage Redesign</h3>
