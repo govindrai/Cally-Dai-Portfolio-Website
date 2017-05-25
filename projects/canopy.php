@@ -12,7 +12,7 @@
                <div class="col-1"></div>
                 <div class="col-10">
                   <h1>Canopy Responsive Interactive Learning Platform</h1>
-                  <img height="400px" src="img/index/canopy-img.png">
+                  <img style="max-width:100%; max-height: 400px"  src="img/index/canopy-img.png">
                 </div>
                 <div class="col-1"></div>
           </div>
@@ -47,11 +47,11 @@
            <div class="col-10">
              <div class="left-align">
                <h3>Process</h3>
-               <img class="project-body-image" width="920px" height="46px" src="images/canopy/design-process.svg">
+               <img class="project-body-image" style="max-height: 46px" src="images/canopy/design-process.svg">
                <h3>Result</h3>
                <p>The team at Canopy is currently working to implement our designs! See below for some of the screens of the final product.</p>
              </div>
-             <img class="project-body-image" width="860px" height="300px" src="images/canopy/final-screens.png">
+             <img class="project-body-image" style="max-height: 300px" src="images/canopy/final-screens.png">
            </div>
            <div class="col-1"></div>
           </div>
@@ -80,12 +80,12 @@
                 <li>Users wanted elements of interactivity within the lesson to keep them engaged</li>
                 <li>Users wanted structure to their learning process</li>
                 <li>Users were unsure what level they were considered regarding knowledge of material</li>
-                <img class="project-image-caption" width="730px" height="335px" src="images/canopy/research.png">
+                <img class="project-image-caption" style="max-height: 335px" src="images/canopy/research.png">
                 <div class="caption">Organizing our thoughts onto post-its helped us visualize our insights
                 </div>
                 <p>Researching best practices for the learning platform industry, we examined successful models, such as Duolingo and Codecademy, to discover which attributes they had in common and to figure out which methodologies were considered most effective.</p>
                 <p>We noted pros and cons for each platform and agreed upon which we thought had potential to be best suited for Canopy.</p>
-                <img class="project-image-caption" width="540px" height="519px" src="images/canopy/inspiration-board.png">
+                <img class="project-image-caption" style="max-height: 519px" src="images/canopy/inspiration-board.png">
                 <div class="caption">
                   Our inspiration board gave us ideas of what we wanted for the app
                 </div>
@@ -110,11 +110,11 @@
                 <p>With our persona's needs and industry inspirations in mind, we started our extended version of the Google Ventures Design Sprint. Normally, this whole process would be conducted in a week, but instead, we spanned this over the course of a couple weeks.</p>
                 <p>We conducted an idea dump of all possible directions we can take in order to create an engaging learning platform for users. Some ideas I pitched were having short, bite-sized lessons with quizzes scattered throughout and a type of scoreboard with friends to drive engagement through competition.</p>
                 <p>We then narrowed our scope to what we could accomplish for the version 1.0 of the web application.</p>
-                <img class="project-image-caption" width="730px" height="455px" src="images/canopy/feature-vote.png">
+                <img class="project-image-caption" style="max-height: 455px" src="images/canopy/feature-vote.png">
                 <div class="caption">
                   We listed out our ideas and voted for the ones we liked best
                 </div>
-                <img class="project-image-caption" width="730px" height="498px" src="images/canopy/feature-planning.png">
+                <img class="project-image-caption" style="max-height: 498px" src="images/canopy/feature-planning.png">
                 <div class="caption">
                   Sorting our ideas out helped us scale down the project and plan for future features
                   </div>
@@ -136,7 +136,7 @@
                   </div>
                 </div>
                 <p>We started our sketches with a round of Crazy 8's, an activity where we sketched 8 lo-fi variations of our design ideas in 5 minutes. Using a mobile first methodology, we focused on the course roadmap and the lesson page. Gathering insight from each other's work, we continued on to sketch out a full-page layout, one for the roadmap and one for the lesson. I decided to focus on the lesson page, and helped create the baseline for the final product.</p>
-                <img class="project-image-caption" width="730px" height="391px" src="images/canopy/crazy-8s.png">
+                <img class="project-image-caption" style="max-height: 391px" src="images/canopy/crazy-8s.png">
                 <div class="caption">
                   Sketching as quickly as we can in 5 short minutes
                 </div>
@@ -145,13 +145,13 @@
             <div class="col-1"></div>
             <div class="col-1"></div>
             <div class="col-5">
-              <img class ="project-image-caption" width="445px" height="334px" src="images/canopy/sketch-roadmap.png">
+              <img class ="project-image-caption" style="max-height: 334px" src="images/canopy/sketch-roadmap.png">
               <div class="caption">
                 Sketches for lesson roadmap
               </div>
             </div>
             <div class="col-5">
-              <img class ="project-image-caption" width="445px" height="334px" src="images/canopy/sketch-lesson.png">
+              <img class ="project-image-caption" style="max-height: 334px" src="images/canopy/sketch-lesson.png">
               <div class="caption">
                 Sketches for lesson pages
               </div>
@@ -161,11 +161,11 @@
             <div class="col-10">
               <div class="left-align">
                 <p>Next, we created 3 separate wireframe flows and invited the Founders in to validate decisions in a design review. Together we aligned on the overall vision, look, and feel of the product.</p>
-                <img class="project-image-caption" width="730px" height="369px" src="images/canopy/wireframes.png">
+                <img class="project-image-caption" style="max-height: 369px" src="images/canopy/wireframes.png">
                 <div class="caption">
                   Exploring different options for our screens and flows
                 </div>
-                <img class="project-image-caption" width="730px" height="440px" src="images/canopy/design-review.png">
+                <img class="project-image-caption" style="max-height: 440px" src="images/canopy/design-review.png">
                 <div class="caption">
                   Design review with the Founder of Canopy
                 </div>
@@ -187,12 +187,12 @@
                   </div>
                 </div>
                 <p>After critique, we converged on a singular design we decided would solve the problem in the best way. For the roadmap, a card UI was favored for its ability to scale from small mobile screens to large desktop windows. For visual interest and engagement, icons and progress bars were introduced. In the lesson pages, the content would be divided to one (mobile) page views with quizzes and lesson summaries throughout to ensure user learning.</p>
-                <img class ="project-image-caption" width="730px" height="397px" src="images/canopy/direction.png">
+                <img class ="project-image-caption" style="max-height: 397px" src="images/canopy/direction.png">
                 <div class="caption">
                   After our review, we had a clear direction of where we wanted to take the project
                 </div>
                 <p>A prototype was created using Pixate and we tested it with 6 users. Although 7 users would have provided more statistical significance, the result from testing 6 users was enough to inform our next steps in the process. We walked users through a usability test and asked them comprehensive questions.</p>
-                <img class ="project-image-caption" width="730px" height="589px" src="images/canopy/testing-1.png">
+                <img class ="project-image-caption" style="max-height: 589px" src="images/canopy/testing-1.png">
                 <div class="caption">
                   Results from our first round of tessting
                 </div>
@@ -215,20 +215,20 @@
                   </div>
                 </div>
                 <p>Despite this, there were some aspects that went incredibly well: all users understood it was a learning platform, knew how to start a lesson, and liked the interactivity within the lesson. For everything else, we mapped out all the pain points we needed to address for our next iteration.</p>
-                <img class="project-image-caption" width="730px" height="547px" src="images/canopy/final-edits.png">
+                <img class="project-image-caption" style="max-height: 547px" src="images/canopy/final-edits.png">
                 <div class="caption">
                   Our notes and brainstorm of the changes that needed to be made after testing
                 </div>
                 <p>We made the appropriate changes to our prototype from the results of our first testing. To combat the confusion with our dummy copy and iconography, we also took our designs into high fidelity.</p>
                 <p>For consistency, we tested another group of 6 users.</p>
-                <img class="project-image-caption" width="720px" height="589px" src="images/canopy/testing-2.png">
+                <img class="project-image-caption" style="max-height: 589px" src="images/canopy/testing-2.png">
                 <div class="caption">
                   Results from our second round of testing
                 </div>
                 <p>These results were much more agreeable and from here, we only made minor changes were needed before the final deliverable.</p>
                 <p>One thing we had to unquestionably address was our "cheat sheet." Although our comprehension testing told us users enjoyed the idea of having a lesson summary, "cheat sheet" was indecipherable to users. We decided to simply rename this as "lesson summary" for our next iteration.</p>
                 <p>Here are some screen examples of the evolution of our prototypes.</p>
-                <img class="project-image-caption" width="730px" height="746px" src="images/canopy/changes-made.png">
+                <img class="project-image-caption" style="max-height: 746px" src="images/canopy/changes-made.png">
                 <div class="caption">
                   By having 2 rounds of testing, we were able to make changes to our mockups and move in an agile pace
                 </div>
@@ -278,7 +278,7 @@
         <main-project id="project-hero">
          <div class="container">
                 <div class="col-12">
-                  <H3><a class="pink-link" src="www.callydai.com">BACK TO PORTFOLIO</a></h3>
+                  <H3><a class="pink-link" href="">BACK TO PORTFOLIO</a></h3>
                 </div>
           </div>
        </main-project>

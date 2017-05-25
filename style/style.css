@@ -397,7 +397,7 @@ footer .hoverable::before {
 }
 
 #soma-water {
-    background-color: #f8f4eb;
+    background-color: #f0f8eb;
 }
 
 #spotify {
@@ -702,7 +702,6 @@ section:nth-of-type(4) {
 
 .modal-content {
     position: relative;
-    font-weight: bold;
     overflow-y: auto;
 }
 
@@ -720,18 +719,33 @@ section:nth-of-type(4) {
     max-width: 540px;
     position: relative;
     z-index: 5;
-    cursor: pointer;
+    cursor: default;
+}
+
+.modal-hero-image-iphone {
+    max-width: 540px;
+    position: relative;
+    z-index: 5;
+    cursor: default;
 }
 
 .gif-container {
-    width: 100%;
     max-width: 540px;
     position: relative;
+    align-items: center;
 }
 
 .gif {
     position: absolute;
     top: 7%;
+    left: 11.4%;
+    z-index: 1;
+    max-width: 77%;
+}
+
+.iphonegif {
+    position: absolute;
+    top: 14.5%;
     left: 11.4%;
     z-index: 1;
     max-width: 77%;
@@ -793,8 +807,8 @@ section:nth-of-type(4) {
 
 #contact input,
 textarea {
-    font-family: 'Lora', sans-serif;
-    font-size: 16px;
+    font-family: 'Glegoo', sans-serif;
+    font-size: 15px;
     line-height: 1.88;
     border-radius: 3px;
     background-color: #ffffff;
